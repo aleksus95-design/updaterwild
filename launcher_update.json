@@ -1,9 +1,9 @@
 {
-    "version":  "2026.04.16.1",
+    "version":  "2026.04.16.2",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher_Single.exe",
-    "sha256":  "79c3575589663f83b9e85d53c82f42d2ef9747dcf0898a394fb36359aec2723c",
+    "sha256":  "99a232bc216bd24c39107479677693b7f1a4522dab63462098cd2863f95b0822",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher_Single.exe",
-    "published_at":  "2026-04-15T21:13:11Z",
-    "notes":  "Fresh test update build for immediate launcher update verification."
+    "published_at":  "2026-04-15T21:18:09Z",
+    "notes":  "Separate test update build for immediate update verification from 2026.04.16.1."
 }
