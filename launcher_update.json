@@ -1,9 +1,9 @@
 {
-    "version":  "2026.04.15.8",
+    "version":  "2026.04.16.1",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher_Single.exe",
-    "sha256":  "be853f685ad40891776c1e07e42e1364c4ef64ad7c1ce01e30887010d82f8384",
+    "sha256":  "79c3575589663f83b9e85d53c82f42d2ef9747dcf0898a394fb36359aec2723c",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher_Single.exe",
-    "published_at":  "2026-04-15T21:02:37Z",
-    "notes":  "Visual sizing fix for additional mods button and long status messages."
+    "published_at":  "2026-04-15T21:13:11Z",
+    "notes":  "Fresh test update build for immediate launcher update verification."
 }
