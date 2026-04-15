@@ -1,9 +1,9 @@
 {
-    "version":  "2026.04.15.4",
+    "version":  "2026.04.15.5",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher_Single.exe",
-    "sha256":  "78f6a79d105a919c5cb3e6c2bfb4bb5b35b7968aa62d0d5f8f8f45bf11af5a0f",
+    "sha256":  "1b1244964352839f3a942972669382c5b3745ec20a8e47cf31b7bef9a6a0d20e",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher_Single.exe",
-    "published_at":  "2026-04-15T20:25:36Z",
-    "notes":  "Test update build for the isolated old WILD launcher."
+    "published_at":  "2026-04-15T20:32:49Z",
+    "notes":  "Test update build for the isolated old WILD launcher with BOM-tolerant manifest parsing."
 }
