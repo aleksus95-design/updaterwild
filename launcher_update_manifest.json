@@ -1,9 +1,9 @@
 {
-  "version": "2026.04.16.10",
+  "version": "2026.04.16.11",
   "url": "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher_Single.exe",
-  "sha256": "66169d4690deb9f630a34266d00e9cafe6cdf97dcfacfae90f1370acadf1b43b",
+  "sha256": "ec7c4ca59a16ce4b219fac5bd22ecbe9fda195dac7531e16a0e5d382d7a9d802",
   "package_format": "exe",
   "launch_exe": "WILD_Launcher_Single.exe",
-  "published_at": "2026-04-16T02:10:00Z",
-  "notes": "Fast startup update detection, WILD-styled helper window, commit-pinned installer flow, and stronger helper cleanup."
+  "published_at": "2026-04-16T02:40:00Z",
+  "notes": "Faster startup, cached background rendering, clearer update button states, and verified helper update flow."
 }
