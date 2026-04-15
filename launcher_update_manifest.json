@@ -1,9 +1,9 @@
 {
-    "version":  "2026.04.16.2",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher_Single.exe",
-    "sha256":  "99a232bc216bd24c39107479677693b7f1a4522dab63462098cd2863f95b0822",
-    "package_format":  "exe",
-    "launch_exe":  "WILD_Launcher_Single.exe",
-    "published_at":  "2026-04-15T21:18:09Z",
-    "notes":  "Separate test update build for immediate update verification from 2026.04.16.1."
+  "version": "2026.04.16.3",
+  "url": "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher_Single.exe",
+  "sha256": "bbc8d2065708b105d3c267738d46a429d0e4b689d4541c54ff9b201a1fe76f4b",
+  "package_format": "exe",
+  "launch_exe": "WILD_Launcher_Single.exe",
+  "published_at": "2026-04-15T21:40:18Z",
+  "notes": "Public-style helper update flow for the old WILD launcher."
 }
