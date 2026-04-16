@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.04.16.21",
+    "version":  "2026.04.16.22",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "714ccd01b7db234b2ca2533f725fec8b6ff63b197851e4f50f94921df64063cf",
+    "sha256":  "4b0d837b3cff612fc85e53be406f7afab4fd00232ed01d8903ba7349577ecfdb",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe",
-    "published_at":  "2026-04-16T19:47:29Z",
-    "notes":  "Startup anti-cheat no longer kills SCUM too early, required-server timeout relaxed, and journal labels improved."
+    "published_at":  "2026-04-16T20:06:48Z",
+    "notes":  "Signed anti-cheat webhook delivery, stable client_id, local webhook receiver, and safer startup anti-cheat timing."
 }
