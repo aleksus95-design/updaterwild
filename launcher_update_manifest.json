@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.04.16.15",
+    "version":  "2026.04.16.16",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher_Single.exe",
-    "sha256":  "54666bee3a78146aaa048b3ec5cbf4e0ca24a8901b44b867c002765d421b70dd",
+    "sha256":  "af43559b3d81cd54fb34aff7f6f6c8e548a41ba355fc4518a1a006596146c18a",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher_Single.exe",
-    "published_at":  "2026-04-16T12:33:09Z",
-    "notes":  "Fixed launcher self-update for portable/onedir builds by copying the helper runtime _internal bundle before restart."
+    "published_at":  "2026-04-16T12:39:38Z",
+    "notes":  "Test build with refreshed WILD launcher package for update-channel verification."
 }
