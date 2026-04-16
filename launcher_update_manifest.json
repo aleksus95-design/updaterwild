@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.04.16.19",
+    "version":  "2026.04.16.20",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "80b6445af94472d09de4e6a6b9f1604d5f893cd1858c1e12173a130c331f9618",
+    "sha256":  "22615c960851ecd3b3f5a6acc1196a246113881c97c9c7ca816dcad96a77d853",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe",
-    "published_at":  "2026-04-16T14:56:08Z",
-    "notes":  "Stricter server lock, early wrong-server blocking, richer anti-cheat event payloads, and overlay-related early-exit logging."
+    "published_at":  "2026-04-16T18:05:16Z",
+    "notes":  "Portable stability fixes, clean launcher shutdown, faster required-server lock, and queued anti-cheat event delivery."
 }
