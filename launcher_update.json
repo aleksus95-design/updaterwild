@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.04.16.20",
+    "version":  "2026.04.16.21",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "22615c960851ecd3b3f5a6acc1196a246113881c97c9c7ca816dcad96a77d853",
+    "sha256":  "714ccd01b7db234b2ca2533f725fec8b6ff63b197851e4f50f94921df64063cf",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe",
-    "published_at":  "2026-04-16T18:05:16Z",
-    "notes":  "Portable stability fixes, clean launcher shutdown, faster required-server lock, and queued anti-cheat event delivery."
+    "published_at":  "2026-04-16T19:47:29Z",
+    "notes":  "Startup anti-cheat no longer kills SCUM too early, required-server timeout relaxed, and journal labels improved."
 }
