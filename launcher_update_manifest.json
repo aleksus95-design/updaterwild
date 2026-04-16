@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.04.16.14",
+    "version":  "2026.04.16.15",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher_Single.exe",
-    "sha256":  "37f4a47051509967bcf288366cfc80363a52e2ef7482d3d240ef70ff4f4f59a6",
+    "sha256":  "54666bee3a78146aaa048b3ec5cbf4e0ca24a8901b44b867c002765d421b70dd",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher_Single.exe",
-    "published_at":  "2026-04-16T12:13:57Z",
-    "notes":  "Fixed launcher status panel growth during update checks and stabilized the main WILD UI layout."
+    "published_at":  "2026-04-16T12:33:09Z",
+    "notes":  "Fixed launcher self-update for portable/onedir builds by copying the helper runtime _internal bundle before restart."
 }
