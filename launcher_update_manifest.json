@@ -1,9 +1,9 @@
-﻿{
-    "version":  "2026.04.17.1",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "94a3aa90a36e360fa63c993126b4b8cd8900a509cf150b84871c8ac4a9d19b5b",
-    "package_format":  "exe",
-    "launch_exe":  "WILD_Launcher.exe",
-    "published_at":  "2026-04-17T12:39:44Z",
-    "notes":  "Automatic anti-cheat endpoint discovery from GitHub, live webhook delivery support, and gateway automation for GitHub log mirroring."
+{
+  "version": "2026.04.17.2",
+  "url": "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
+  "sha256": "2a5ef4b0f3bc1a9fa2f51fff270027b3c8c37805407ecabe95425b2c6a07149c",
+  "package_format": "exe",
+  "launch_exe": "WILD_Launcher.exe",
+  "published_at": "2026-04-17T14:40:41Z",
+  "notes": "Strict GitHub mod sync for keep-mods mode, foreign file cleanup, and missing file restoration from allowed repositories."
 }
