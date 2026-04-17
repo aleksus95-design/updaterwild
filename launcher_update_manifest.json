@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.04.16.22",
+    "version":  "2026.04.17.1",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "4b0d837b3cff612fc85e53be406f7afab4fd00232ed01d8903ba7349577ecfdb",
+    "sha256":  "94a3aa90a36e360fa63c993126b4b8cd8900a509cf150b84871c8ac4a9d19b5b",
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe",
-    "published_at":  "2026-04-16T20:06:48Z",
-    "notes":  "Signed anti-cheat webhook delivery, stable client_id, local webhook receiver, and safer startup anti-cheat timing."
+    "published_at":  "2026-04-17T12:39:44Z",
+    "notes":  "Automatic anti-cheat endpoint discovery from GitHub, live webhook delivery support, and gateway automation for GitHub log mirroring."
 }
