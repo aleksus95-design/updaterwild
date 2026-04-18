@@ -1,9 +1,9 @@
 {
-  "version": "2026.04.17.2",
+  "version": "2026.04.18.1",
   "url": "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-  "sha256": "2a5ef4b0f3bc1a9fa2f51fff270027b3c8c37805407ecabe95425b2c6a07149c",
+  "sha256": "309f82ea84ed9d3cf98625141fddb1d744f879029b96294f82dde476866790af",
   "package_format": "exe",
   "launch_exe": "WILD_Launcher.exe",
-  "published_at": "2026-04-17T14:40:41Z",
-  "notes": "Strict GitHub mod sync for keep-mods mode, foreign file cleanup, and missing file restoration from allowed repositories."
+  "published_at": "2026-04-18T10:57:04Z",
+  "notes": "Live download size and speed on the progress bar, clearer anti-cheat culprit logging, and module-level overlay or inject evidence."
 }
