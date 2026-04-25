@@ -1,9 +1,9 @@
-{
-  "version": "2026.04.18.1",
-  "url": "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-  "sha256": "309f82ea84ed9d3cf98625141fddb1d744f879029b96294f82dde476866790af",
-  "package_format": "exe",
-  "launch_exe": "WILD_Launcher.exe",
-  "published_at": "2026-04-18T10:57:04Z",
-  "notes": "Live download size and speed on the progress bar, clearer anti-cheat culprit logging, and module-level overlay or inject evidence."
+﻿{
+    "version":  "2026.04.25.1",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
+    "sha256":  "aca342a3fab186d55c2b6ae8579008194c59391ba54793770665b166a4181397",
+    "package_format":  "exe",
+    "launch_exe":  "WILD_Launcher.exe",
+    "published_at":  "2026-04-25T18:20:56Z",
+    "notes":  "WILD info windows restyled, rules/server info online windows, admin formatting helpers, and stable launcher improvements."
 }
