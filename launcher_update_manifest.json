@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.05.01.2",
+    "version":  "2026.05.01.3",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "9f15b21df059e677b10e768d4596ec275dce09ecc4e2e7da236983457acd26f0",
-    "notes":  "Bundled SCUM-AllowMods runtime, direct -nobattleye SCUM launch, mod pak isolation in Content\\Paks\\~mods, and macro false-positive fix.",
-    "published_at":  "2026-05-01T11:34:19Z",
+    "sha256":  "5349c2e364a1c682f4c17de69981f4dec96c55bcd1fff100e9610c93e06ac884",
+    "notes":  "Fixes GitHub prefetch downloads so WILD pak files are installed into Content\\Paks\\~mods instead of root Paks; keeps bundled SCUM-AllowMods direct launch.",
+    "published_at":  "2026-05-01T11:42:07Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
