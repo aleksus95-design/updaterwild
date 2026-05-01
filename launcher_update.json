@@ -1,9 +1,10 @@
 ﻿{
-    "version":  "2026.04.25.1",
+    "version":  "2026.05.01.2",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "aca342a3fab186d55c2b6ae8579008194c59391ba54793770665b166a4181397",
+    "sha256":  "9f15b21df059e677b10e768d4596ec275dce09ecc4e2e7da236983457acd26f0",
+    "notes":  "Bundled SCUM-AllowMods runtime, direct -nobattleye SCUM launch, mod pak isolation in Content\\Paks\\~mods, and macro false-positive fix.",
+    "published_at":  "2026-05-01T11:34:19Z",
+    "mandatory":  false,
     "package_format":  "exe",
-    "launch_exe":  "WILD_Launcher.exe",
-    "published_at":  "2026-04-25T18:20:56Z",
-    "notes":  "WILD info windows restyled, rules/server info online windows, admin formatting helpers, and stable launcher improvements."
+    "launch_exe":  "WILD_Launcher.exe"
 }
