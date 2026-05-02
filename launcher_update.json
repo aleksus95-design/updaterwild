@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.05.01.3",
+    "version":  "2026.05.02.1",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "5349c2e364a1c682f4c17de69981f4dec96c55bcd1fff100e9610c93e06ac884",
-    "notes":  "Fixes GitHub prefetch downloads so WILD pak files are installed into Content\\Paks\\~mods instead of root Paks; keeps bundled SCUM-AllowMods direct launch.",
-    "published_at":  "2026-05-01T11:42:07Z",
+    "sha256":  "3768dcfb908bfc6d6a20e8beaa3eb8ec0a378e836339ab66d4774d9cea5e4d1e",
+    "notes":  "Смена разрешенного сервера WILD на 109.248.4.18:7002. Подключение контролируется только к новому IP.",
+    "published_at":  "2026-05-02T17:36:43Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
