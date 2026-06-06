@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.06.06.2030",
+    "version":  "2026.06.06.2040",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "df3586aeee26c5b650a064390b597c9b0f81ad1210b68d12a420cd3f819ca08f",
-    "notes":  "WILD: параметры запуска приведены к настройкам сервера: -fileopenlog и -nobattleye включены, -nosteam не используется. MapGuard payload с version.dll остается активным.",
-    "published_at":  "2026-06-06T17:32:00Z",
+    "sha256":  "1a9aa302a1abae63f2eb2c8438bd77c3574643246eb456743f3f0bb2542a3a2d",
+    "notes":  "WILD: запуск возвращен к рабочей схеме через SCUM.exe напрямую: -nobattleye -fileopenlog -connect. Steam -applaunch не используется.",
+    "published_at":  "2026-06-06T17:40:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
