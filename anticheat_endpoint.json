@@ -1,6 +1,7 @@
 {
-  "url": "https://rebecca-allen-proven-less.trycloudflare.com/anticheat/0c025a56bef644c68831f8e62cd5f3523c95190577f2423a",
+  "url": "",
   "timeout_seconds": 8,
-  "updated_at": "2026-06-06T11:46:10Z",
-  "transport": "cloudflare_quick_tunnel"
+  "updated_at": "2026-06-06T16:30:00Z",
+  "transport": "github_repo",
+  "repo": "https://github.com/aleksus95-design/WILD-Launcher-AntiCheat-Logs"
 }
