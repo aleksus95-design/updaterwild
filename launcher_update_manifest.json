@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.06.06.2005",
+    "version":  "2026.06.06.2015",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "cd979d3f438670dc31a40a85549423271271d4b3641aff90feafec7ae26b93cf",
-    "notes":  "WILD: исправлена установка MapGuard. Payload с GitHub теперь кладет Mods в SCUM\\Binaries\\Win64\\ue4ss\\Mods, mods.txt объединяется без удаления старых строк.",
-    "published_at":  "2026-06-06T17:05:00Z",
+    "sha256":  "16918c4de232e396d25ba658eaffaeb0e344eddda14a49b987389c804f97b286",
+    "notes":  "WILD: MapGuard ставит только 7 клиентских файлов в SCUM\\Binaries\\Win64. Mods\\mods.txt объединяется без перезаписи; служебные manifest/latest в игру не кладутся.",
+    "published_at":  "2026-06-06T17:20:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
