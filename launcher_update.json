@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.06.06.1930",
+    "version":  "2026.06.06.2005",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
-    "sha256":  "a39010311d8b9f60a48291219433e9a513f020f8a30f2551840ce44fe0aef509",
-    "notes":  "WILD: запуск через Steam с -fileopenlog, без встроенной DLL/AllowMods-подгрузки. Логи античита читаются из GitHub, контроль входа оставлен только для целевого сервера.",
-    "published_at":  "2026-06-06T16:35:00Z",
+    "sha256":  "cd979d3f438670dc31a40a85549423271271d4b3641aff90feafec7ae26b93cf",
+    "notes":  "WILD: исправлена установка MapGuard. Payload с GitHub теперь кладет Mods в SCUM\\Binaries\\Win64\\ue4ss\\Mods, mods.txt объединяется без удаления старых строк.",
+    "published_at":  "2026-06-06T17:05:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
