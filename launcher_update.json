@@ -1,9 +1,9 @@
 ﻿{
     "version":  "2026.06.06.2040",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/WILD_Launcher.exe",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/bb6da3cd8580adab0194104a8b90020171e79d14/WILD_Launcher.exe",
     "sha256":  "1a9aa302a1abae63f2eb2c8438bd77c3574643246eb456743f3f0bb2542a3a2d",
     "notes":  "WILD: запуск возвращен к рабочей схеме через SCUM.exe напрямую: -nobattleye -fileopenlog -connect. Steam -applaunch не используется.",
-    "published_at":  "2026-06-06T17:40:00Z",
+    "published_at":  "2026-06-06T17:43:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
