@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.06.07.1220",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/bddaf389139755d8a9e3fae40c73a91bef7e216f/WILD_Launcher.exe",
-    "sha256":  "775bb7bc728b7dbf5e0bf737498e7b59ce00c1c8d8d3b83babefb1a4e5fe3915",
-    "notes":  "WILD: NativeMapGate ставится из WILD-Launcher-MapGuard-Data по манифесту payload/SCUM, старые ScumWarden/MagniMap хвосты очищаются, pak карты защищается keep-list во всех автоматических очистках.",
-    "published_at":  "2026-06-07T09:22:11Z",
+    "version":  "2026.06.07.1911",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/18951f093ee4c79f9a018f944823a29562358072/WILD_Launcher.exe",
+    "sha256":  "4fee3704a8fd6c9a2ec39e80758cc7315e0a8f1f313127541a94e3069628d555",
+    "notes":  "WILD: кнопка удаления модов больше не оставляет NativeMapGate/UE4SS/warden хвосты, чистит launcher-managed файлы карты и выключает опциональные моды без закрытия лаунчера.",
+    "published_at":  "2026-06-07T16:19:13Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
