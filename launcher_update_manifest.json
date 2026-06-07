@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.06.06.2040",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/bb6da3cd8580adab0194104a8b90020171e79d14/WILD_Launcher.exe",
-    "sha256":  "1a9aa302a1abae63f2eb2c8438bd77c3574643246eb456743f3f0bb2542a3a2d",
-    "notes":  "WILD: запуск возвращен к рабочей схеме через SCUM.exe напрямую: -nobattleye -fileopenlog -connect. Steam -applaunch не используется.",
-    "published_at":  "2026-06-06T17:43:00Z",
+    "version":  "2026.06.07.1210",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/723be31e34c6271536fc9dd9df2995d6aceb1c46/WILD_Launcher.exe",
+    "sha256":  "804dad8240165668081985ad023ad932d3ff677be81f191e17f5aa1ef6d75e3f",
+    "notes":  "WILD: NativeMapGate ставится из WILD-Launcher-MapGuard-Data по манифесту payload/SCUM, старые ScumWarden/MagniMap/ue4ss хвосты очищаются, pak карты сохраняется в keep-list перед запуском.",
+    "published_at":  "2026-06-07T09:17:03Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
