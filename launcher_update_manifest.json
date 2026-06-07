@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.06.07.1210",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/723be31e34c6271536fc9dd9df2995d6aceb1c46/WILD_Launcher.exe",
-    "sha256":  "804dad8240165668081985ad023ad932d3ff677be81f191e17f5aa1ef6d75e3f",
-    "notes":  "WILD: NativeMapGate ставится из WILD-Launcher-MapGuard-Data по манифесту payload/SCUM, старые ScumWarden/MagniMap/ue4ss хвосты очищаются, pak карты сохраняется в keep-list перед запуском.",
-    "published_at":  "2026-06-07T09:17:03Z",
+    "version":  "2026.06.07.1220",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/bddaf389139755d8a9e3fae40c73a91bef7e216f/WILD_Launcher.exe",
+    "sha256":  "775bb7bc728b7dbf5e0bf737498e7b59ce00c1c8d8d3b83babefb1a4e5fe3915",
+    "notes":  "WILD: NativeMapGate ставится из WILD-Launcher-MapGuard-Data по манифесту payload/SCUM, старые ScumWarden/MagniMap хвосты очищаются, pak карты защищается keep-list во всех автоматических очистках.",
+    "published_at":  "2026-06-07T09:22:11Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
