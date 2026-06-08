@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.06.07.1911",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/18951f093ee4c79f9a018f944823a29562358072/WILD_Launcher.exe",
-    "sha256":  "4fee3704a8fd6c9a2ec39e80758cc7315e0a8f1f313127541a94e3069628d555",
-    "notes":  "WILD: кнопка удаления модов больше не оставляет NativeMapGate/UE4SS/warden хвосты, чистит launcher-managed файлы карты и выключает опциональные моды без закрытия лаунчера.",
-    "published_at":  "2026-06-07T16:19:13Z",
+    "version":  "2026.06.08.1119",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/1e64c734c94aae186e1b5d6d62f09578755bc5d3/WILD_Launcher.exe",
+    "sha256":  "a9daf52021dd1298bdeeeef28bc8129e34e370c2af4164522d406a0918feda24",
+    "notes":  "WILD: временный режим теперь чистит весь launcher-managed payload без зависимости от downloaded_files: version.dll, UE4SS, NativeMapGate, warden, backup-хвосты и pak-файлы уходят при выключенной галочке сохранения.",
+    "published_at":  "2026-06-08T09:01:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
