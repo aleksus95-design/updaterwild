@@ -1,7 +1,6 @@
 {
-  "url": "",
+  "url": "https://harvey-museum-scripting-level.trycloudflare.com/anticheat/0c025a56bef644c68831f8e62cd5f3523c95190577f2423a",
   "timeout_seconds": 8,
-  "updated_at": "2026-06-06T16:30:00Z",
-  "transport": "github_repo",
-  "repo": "https://github.com/aleksus95-design/WILD-Launcher-AntiCheat-Logs"
+  "updated_at": "2026-06-08T05:07:06Z",
+  "transport": "cloudflare_quick_tunnel"
 }
