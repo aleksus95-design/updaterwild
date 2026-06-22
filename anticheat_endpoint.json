@@ -1,6 +1,7 @@
 {
-  "url": "https://secretariat-ringtones-past-overseas.trycloudflare.com/anticheat/0c025a56bef644c68831f8e62cd5f3523c95190577f2423a",
+  "enabled": false,
+  "url": "",
   "timeout_seconds": 8,
-  "updated_at": "2026-06-22T08:46:10Z",
-  "transport": "cloudflare_quick_tunnel"
+  "updated_at": "2026-06-22T10:24:48Z",
+  "transport": "disabled"
 }

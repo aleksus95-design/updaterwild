@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "2026.06.08.1119",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/1e64c734c94aae186e1b5d6d62f09578755bc5d3/WILD_Launcher.exe",
-    "sha256":  "a9daf52021dd1298bdeeeef28bc8129e34e370c2af4164522d406a0918feda24",
-    "notes":  "WILD: временный режим теперь чистит весь launcher-managed payload без зависимости от downloaded_files: version.dll, UE4SS, NativeMapGate, warden, backup-хвосты и pak-файлы уходят при выключенной галочке сохранения.",
-    "published_at":  "2026-06-08T09:01:00Z",
+    "version":  "2026.06.22.1315",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/7ad29a297410ca73f59e5589892c707a659b54ec/WILD_Launcher.exe",
+    "sha256":  "daa0ea496e4d71323337153745850228180de65a6d197e549f3fd4517f94dda6",
+    "notes":  "WILD: отключены внутренний сканер/карантин/remote anti-cheat logs лаунчера; оставлен только контроль подключения к WILD-серверу. Обновлены DUNE фон, иконка и оранжевая тема кнопок.",
+    "published_at":  "2026-06-22T10:24:48Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "WILD_Launcher.exe"
