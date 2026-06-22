@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "2026.06.22.1315",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/7ad29a297410ca73f59e5589892c707a659b54ec/WILD_Launcher.exe",
-    "sha256":  "daa0ea496e4d71323337153745850228180de65a6d197e549f3fd4517f94dda6",
-    "notes":  "WILD: отключены внутренний сканер/карантин/remote anti-cheat logs лаунчера; оставлен только контроль подключения к WILD-серверу. Обновлены DUNE фон, иконка и оранжевая тема кнопок.",
-    "published_at":  "2026-06-22T10:24:48Z",
+    "version":  "2026.06.22.1359",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/f3c82c422346dfc4196f69e8b102718f76fd3b53/DUNE_Launcher.exe",
+    "sha256":  "d5c2a0a15e9030e1fbf697454e3709593b15d5fd783ade470a65f6c6eab60c6d",
+    "notes":  "DUNE: переименован лаунчер и exe, заменен фон на dune_launcher_exact_1200x680.jpg, убраны зеленые акценты, кнопки сглажены под песочно-медный стиль DUNE. Внутренний античит лаунчера отключен, server-lock сохранен.",
+    "published_at":  "2026-06-22T11:08:18Z",
     "mandatory":  false,
     "package_format":  "exe",
-    "launch_exe":  "WILD_Launcher.exe"
+    "launch_exe":  "DUNE_Launcher.exe"
 }
