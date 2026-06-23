@@ -1,7 +1,6 @@
 {
-  "enabled": false,
-  "url": "",
+  "url": "https://constraint-blogging-time-cattle.trycloudflare.com/anticheat/0c025a56bef644c68831f8e62cd5f3523c95190577f2423a",
   "timeout_seconds": 8,
-  "updated_at": "2026-06-22T10:24:48Z",
-  "transport": "disabled"
+  "updated_at": "2026-06-23T04:58:41Z",
+  "transport": "cloudflare_quick_tunnel"
 }
