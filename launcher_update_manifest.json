@@ -1,10 +1,10 @@
 {
-    "version":  "2026.07.02.1333",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/685c6aa9477b278167f58b535e0926130735c685/DUNE_Launcher.exe",
-    "sha256":  "e97074c3cfb0eeff32df00c4649d41464cd43c493da153b134b48b84ee85ea0f",
-    "notes":  "DUNE: добавлена кнопка Подгрузить карту DUNE из отдельного репозитория DUNE-Launcher-Map-Data, добавлен GitHub backoff и дисковый кэш списка файлов, снижена фоновая синхронизация на старте, файловые операции защищены от пересечений.",
-    "published_at":  "2026-07-02T10:47:19Z",
-    "mandatory":  false,
-    "package_format":  "exe",
-    "launch_exe":  "DUNE_Launcher.exe"
+    "version": "2026.07.02.1406",
+    "url": "https://raw.githubusercontent.com/aleksus95-design/updaterwild/fe9171310a4e77c2ea35aae1edef0fb6768dd5b1/DUNE_Launcher.exe",
+    "sha256": "cd00cefd61daed937dcc7a24fd6cc825e7ae9c14398d0cd8cca32d2d54eb5032",
+    "notes": "DUNE: layout fixed, center panel compacted, DUNE map moved to a checkbox mode; enabling downloads and keeps the map, disabling removes it.",
+    "published_at": "2026-07-02T11:12:07Z",
+    "mandatory": false,
+    "package_format": "exe",
+    "launch_exe": "DUNE_Launcher.exe"
 }
