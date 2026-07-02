@@ -1,9 +1,9 @@
-﻿{
-    "version":  "2026.06.22.1359",
-    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/f3c82c422346dfc4196f69e8b102718f76fd3b53/DUNE_Launcher.exe",
-    "sha256":  "d5c2a0a15e9030e1fbf697454e3709593b15d5fd783ade470a65f6c6eab60c6d",
-    "notes":  "DUNE: переименован лаунчер и exe, заменен фон на dune_launcher_exact_1200x680.jpg, убраны зеленые акценты, кнопки сглажены под песочно-медный стиль DUNE. Внутренний античит лаунчера отключен, server-lock сохранен.",
-    "published_at":  "2026-06-22T11:08:18Z",
+{
+    "version":  "2026.07.02.1333",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/685c6aa9477b278167f58b535e0926130735c685/DUNE_Launcher.exe",
+    "sha256":  "e97074c3cfb0eeff32df00c4649d41464cd43c493da153b134b48b84ee85ea0f",
+    "notes":  "DUNE: добавлена кнопка Подгрузить карту DUNE из отдельного репозитория DUNE-Launcher-Map-Data, добавлен GitHub backoff и дисковый кэш списка файлов, снижена фоновая синхронизация на старте, файловые операции защищены от пересечений.",
+    "published_at":  "2026-07-02T10:47:19Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "DUNE_Launcher.exe"
