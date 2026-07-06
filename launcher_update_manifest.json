@@ -1,10 +1,10 @@
 {
-    "version": "2026.07.02.1406",
-    "url": "https://raw.githubusercontent.com/aleksus95-design/updaterwild/fe9171310a4e77c2ea35aae1edef0fb6768dd5b1/DUNE_Launcher.exe",
-    "sha256": "cd00cefd61daed937dcc7a24fd6cc825e7ae9c14398d0cd8cca32d2d54eb5032",
-    "notes": "DUNE: layout fixed, center panel compacted, DUNE map moved to a checkbox mode; enabling downloads and keeps the map, disabling removes it.",
-    "published_at": "2026-07-02T11:12:07Z",
-    "mandatory": false,
-    "package_format": "exe",
-    "launch_exe": "DUNE_Launcher.exe"
+    "version":  "2026.07.06.1430",
+    "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/DUNE_Launcher.exe",
+    "sha256":  "7cbbf265aec06c8f71a943c89d818a5bd3b68ababb331ea3a0bb5b8b0f3aba32",
+    "notes":  "DUNE clean launcher: MapGuard/AntiCheat log repositories removed, GitHub downloads hardened, server lock and mod loading preserved.",
+    "published_at":  "2026-07-06T12:26:52Z",
+    "mandatory":  false,
+    "package_format":  "exe",
+    "launch_exe":  "DUNE_Launcher.exe"
 }
