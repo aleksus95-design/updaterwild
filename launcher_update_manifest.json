@@ -1,9 +1,9 @@
 {
-    "version":  "2026.07.06.1430",
+    "version":  "2026.07.08.1200",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/DUNE_Launcher.exe",
-    "sha256":  "7cbbf265aec06c8f71a943c89d818a5bd3b68ababb331ea3a0bb5b8b0f3aba32",
-    "notes":  "DUNE clean launcher: MapGuard/AntiCheat log repositories removed, GitHub downloads hardened, server lock and mod loading preserved.",
-    "published_at":  "2026-07-06T12:26:52Z",
+    "sha256":  "86255195185970034dc7e2c75ed9489133cf671c72fcf955d71f32167b14bcbf",
+    "notes":  "DUNE launcher: removed client mods card from Additional Mods, kept music/map/skins only, verified startup and GitHub download path.",
+    "published_at":  "2026-07-08T11:43:52Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "DUNE_Launcher.exe"
