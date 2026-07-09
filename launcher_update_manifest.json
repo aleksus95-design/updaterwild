@@ -1,9 +1,9 @@
 {
-    "version":  "2026.07.08.1200",
+    "version":  "2026.07.09.1157",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/DUNE_Launcher.exe",
-    "sha256":  "86255195185970034dc7e2c75ed9489133cf671c72fcf955d71f32167b14bcbf",
-    "notes":  "DUNE launcher: removed client mods card from Additional Mods, kept music/map/skins only, verified startup and GitHub download path.",
-    "published_at":  "2026-07-08T11:43:52Z",
+    "sha256":  "2ea2c2e5fa8bf0f1e34f4f9b896bb74e2f0fa7240e4e6920ae3520971f884eb5",
+    "notes":  "DUNE launcher: fixed Git LFS .pak downloads for optional music mods, prevented pointer files, preserved Additional Mods scroll position, compacted the optional mods window, and hardened optional mod refresh checks.",
+    "published_at":  "2026-07-09T09:00:27Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "DUNE_Launcher.exe"
