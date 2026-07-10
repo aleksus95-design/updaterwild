@@ -1,9 +1,9 @@
 {
-    "version":  "2026.07.09.1157",
+    "version":  "2026.07.10.1554",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/DUNE_Launcher.exe",
-    "sha256":  "2ea2c2e5fa8bf0f1e34f4f9b896bb74e2f0fa7240e4e6920ae3520971f884eb5",
-    "notes":  "DUNE launcher: fixed Git LFS .pak downloads for optional music mods, prevented pointer files, preserved Additional Mods scroll position, compacted the optional mods window, and hardened optional mod refresh checks.",
-    "published_at":  "2026-07-09T09:00:27Z",
+    "sha256":  "258af7d2a2a00d60a0afc8ca024ea0018c02e64c498fb9016d79da8535b12a19",
+    "notes":  "DUNE launcher: added first-run user agreement and privacy disclosure before background tasks, removed obsolete anti-cheat/macro/overlay scan remnants, kept server-only connection guard, shortened update helper wait, and preserved public GitHub/LFS mod downloads.",
+    "published_at":  "2026-07-10T12:58:04Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "DUNE_Launcher.exe"
