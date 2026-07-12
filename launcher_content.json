@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "links": {
+    "vote": {
+      "enabled": false,
+      "url": "https://wargm.ru/server/78653/votes",
+      "labels": {"ru": "Голосование", "en": "Vote", "zh": "投票"}
+    },
+    "shop": {
+      "enabled": false,
+      "url": "https://wargm.ru/server/78653/shop",
+      "labels": {"ru": "Магазин", "en": "Shop", "zh": "商店"}
+    },
+    "discord": {
+      "enabled": true,
+      "url": "https://discord.gg/B9qKjPyP2X",
+      "labels": {"ru": "Дискорд", "en": "Discord", "zh": "Discord"}
+    },
+    "support": {
+      "enabled": false,
+      "url": "https://dalink.to/wildscumserver",
+      "labels": {"ru": "Поддержка", "en": "Support", "zh": "支持"}
+    }
+  },
+  "content_sources": {
+    "rules": "https://github.com/aleksus95-design/wildrules",
+    "server_info": "https://github.com/aleksus95-design/wildserverinfo"
+  },
+  "music": {
+    "enabled": true,
+    "volume": 16
+  },
+  "agreement": {
+    "version": "2026.07.10",
+    "ru": {
+      "title": "Пользовательское соглашение DUNE",
+      "subtitle": "Коротко и честно о том, что делает лаунчер.",
+      "body": "DUNE Launcher предназначен только для подключения к серверу DUNE и управления клиентскими мод-файлами SCUM.\n\n## Что делает лаунчер\n- Загружает моды и обновления только из публичных GitHub-репозиториев проекта.\n- Создаёт, заменяет и удаляет только файлы модов, которыми управляет сам.\n- Хранит локально путь к SCUM, язык, режим запуска, настройки модов и принятую версию соглашения.\n- Проверяет сетевое подключение процесса SCUM, чтобы разрешить вход только на сервер DUNE.\n\n## Конфиденциальность\nЛаунчер не отправляет список программ, скриншоты, буфер обмена, файлы пользователя или содержимое компьютера.\n\nИспользуя лаунчер, игрок соглашается соблюдать правила SCUM, Steam и сервера DUNE."
+    },
+    "en": {
+      "title": "DUNE User Agreement",
+      "subtitle": "A clear summary of what the launcher does.",
+      "body": "DUNE Launcher is intended only for connecting to the DUNE server and managing SCUM client mod files.\n\n## What the launcher does\n- Downloads mods and updates only from the project's public GitHub repositories.\n- Creates, replaces, and removes only launcher-managed mod files.\n- Stores the SCUM path, language, launch mode, mod settings, and accepted agreement version locally.\n- Checks the SCUM network connection so the launcher can permit only the DUNE server.\n\n## Privacy\nThe launcher does not upload program lists, screenshots, clipboard contents, user files, or computer contents.\n\nBy using the launcher, the player agrees to follow the rules of SCUM, Steam, and the DUNE server."
+    },
+    "zh": {
+      "title": "DUNE 用户协议",
+      "subtitle": "清楚说明启动器会做什么。",
+      "body": "DUNE Launcher 仅用于连接 DUNE 服务器并管理 SCUM 客户端模组文件。\n\n## 启动器功能\n- 仅从项目的公开 GitHub 仓库下载模组和更新。\n- 仅创建、替换和删除由启动器管理的模组文件。\n- 在本地保存 SCUM 路径、语言、启动模式、模组设置和已接受的协议版本。\n- 检查 SCUM 网络连接，以确保只能进入 DUNE 服务器。\n\n## 隐私\n启动器不会上传程序列表、截图、剪贴板内容、用户文件或电脑内容。\n\n使用启动器即表示玩家同意遵守 SCUM、Steam 和 DUNE 服务器规则。"
+    }
+  }
+}
