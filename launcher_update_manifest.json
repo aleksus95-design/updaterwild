@@ -1,9 +1,9 @@
 {
-    "version":  "2026.07.12.2213",
+    "version":  "2026.07.12.2319",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/DUNE_Launcher.exe",
-    "sha256":  "6c185caf30c0c2f866bdd87d45fc8a3a7ad370f064af9d453b1e27ca90d7082a",
-    "notes":  "DUNE launcher 2026.07.12.2213: new DUNE background and styling, redesigned user agreement, quiet launcher music that stops while SCUM is running, admin-managed public content, hidden Shop/Vote links, and a leaner player build without client-side GitHub authorization or telemetry.",
-    "published_at":  "2026-07-12T19:27:16Z",
+    "sha256":  "5383753034ca353fd9a9cb33e871b8a3d0fa6d9040c13571d67900749285d7cc",
+    "notes":  "DUNE launcher 2026.07.12.2319: background music now keeps playing during DUNE map and mod downloads and stops only when SCUM is actually running; all buttons use antialiased HiDPI rendering; UTF-8 BOM configuration files are accepted safely.",
+    "published_at":  "2026-07-12T20:27:46Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "DUNE_Launcher.exe"
