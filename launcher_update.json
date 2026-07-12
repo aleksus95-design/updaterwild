@@ -1,9 +1,9 @@
 {
-    "version":  "2026.07.10.1554",
+    "version":  "2026.07.12.1440",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/DUNE_Launcher.exe",
-    "sha256":  "258af7d2a2a00d60a0afc8ca024ea0018c02e64c498fb9016d79da8535b12a19",
-    "notes":  "DUNE launcher: added first-run user agreement and privacy disclosure before background tasks, removed obsolete anti-cheat/macro/overlay scan remnants, kept server-only connection guard, shortened update helper wait, and preserved public GitHub/LFS mod downloads.",
-    "published_at":  "2026-07-10T12:58:04Z",
+    "sha256":  "10d3494db776cfb68180c99a5ef626b8a13d8a9ef65565146f0bbfb6ea15d770",
+    "notes":  "DUNE launcher 2026.07.12.1440: repaired RU/ZH UTF-8 localization and Windows font rendering; added resumable, integrity-checked GitHub/LFS downloads, fresh metadata on manual update, shorter network stalls, and reliable UTF-8 remote text.",
+    "published_at":  "2026-07-12T11:46:38Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "DUNE_Launcher.exe"
