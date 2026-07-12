@@ -1,9 +1,9 @@
 {
-    "version":  "2026.07.12.1440",
+    "version":  "2026.07.12.2213",
     "url":  "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/DUNE_Launcher.exe",
-    "sha256":  "10d3494db776cfb68180c99a5ef626b8a13d8a9ef65565146f0bbfb6ea15d770",
-    "notes":  "DUNE launcher 2026.07.12.1440: repaired RU/ZH UTF-8 localization and Windows font rendering; added resumable, integrity-checked GitHub/LFS downloads, fresh metadata on manual update, shorter network stalls, and reliable UTF-8 remote text.",
-    "published_at":  "2026-07-12T11:46:38Z",
+    "sha256":  "6c185caf30c0c2f866bdd87d45fc8a3a7ad370f064af9d453b1e27ca90d7082a",
+    "notes":  "DUNE launcher 2026.07.12.2213: new DUNE background and styling, redesigned user agreement, quiet launcher music that stops while SCUM is running, admin-managed public content, hidden Shop/Vote links, and a leaner player build without client-side GitHub authorization or telemetry.",
+    "published_at":  "2026-07-12T19:27:16Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "DUNE_Launcher.exe"
