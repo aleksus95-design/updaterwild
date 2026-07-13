@@ -11,7 +11,7 @@
       }
     },
     "shop": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://wargm.ru/server/78653/shop",
       "labels": {
         "ru": "Магазин",
