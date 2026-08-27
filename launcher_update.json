@@ -1,14 +1,14 @@
 {
-    "version":  "2026.07.15.2253",
-    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.07.15.2253/DUNE_Launcher.exe",
+    "version":  "2026.08.27.1325",
+    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.08.27.1325/SCUM_Official_Launcher.exe",
     "urls":  [
-        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.07.15.2253/DUNE_Launcher.exe",
-        "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/DUNE_Launcher.exe"
+        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.08.27.1325/SCUM_Official_Launcher.exe",
+        "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
     ],
-    "sha256":  "8ae39cbe063a05e00927fd5ae2c9e7cd882e12bf0149ceb1bd0501b154e47c66",
-    "notes":  "DUNE launcher 2026.07.15.2253: deleted or newly uploaded wildmods are synchronized from the current repository state; an empty main mod repository no longer blocks game launch; launcher updates use raw-manifest and multi-source download fallbacks.",
-    "published_at":  "2026-07-15T19:56:55Z",
+    "sha256":  "5291dd094b036f2b5805afcb9abd9bbdb80f78dede6087a23e70300866d3c358",
+    "notes":  "SCUM Official Launcher 2026.08.27.1325: BattleMetrics server data is refreshed online, the connection endpoint stays fixed, and the launcher can update from the existing GitHub source.",
+    "published_at":  "2026-08-27T13:25:00Z",
     "mandatory":  false,
     "package_format":  "exe",
-    "launch_exe":  "DUNE_Launcher.exe"
+    "launch_exe":  "SCUM_Official_Launcher.exe"
 }
