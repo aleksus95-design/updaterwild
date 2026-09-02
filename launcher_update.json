@@ -1,13 +1,13 @@
 {
-    "version":  "2026.08.27.1341",
-    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.08.27.1341/SCUM_Official_Launcher.exe",
+    "version":  "2026.09.02.2016",
+    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.02.2016/SCUM_Official_Launcher.exe",
     "urls":  [
-        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.08.27.1341/SCUM_Official_Launcher.exe",
+        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.02.2016/SCUM_Official_Launcher.exe",
         "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
     ],
-    "sha256":  "adc0936078ba23a04adc532815155ade51abb86f2642b2f47954907ff294842b",
-    "notes":  "SCUM Official Launcher 2026.08.27.1341: BattleMetrics server data is refreshed online, the connection endpoint stays fixed, and the launcher can update from the existing GitHub source.",
-    "published_at":  "2026-08-27T13:41:00Z",
+    "sha256":  "ad7293783aebd6a6780b47d19a8b46bf00cb2eb13f48200c46adda4e01c9e84a",
+    "notes":  "SCUM Official Launcher 2026.09.02.2016: switched to BattleMetrics server 40993304, added live server rank, and fixed the connection endpoint to 92.38.222.26:7008.",
+    "published_at":  "2026-09-02T20:16:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "SCUM_Official_Launcher.exe"
