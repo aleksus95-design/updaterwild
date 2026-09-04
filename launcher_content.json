@@ -3,7 +3,7 @@
   "links": {
     "vote": {
       "enabled": false,
-      "url": "https://wargm.ru/server/78653/votes",
+      "url": "https://wargm.ru/server/81965/votes",
       "labels": {
         "ru": "Голосование",
         "en": "Vote",
@@ -12,7 +12,7 @@
     },
     "shop": {
       "enabled": false,
-      "url": "https://wargm.ru/server/78653/shop",
+      "url": "https://wargm.ru/server/81965/shop",
       "labels": {
         "ru": "Магазин",
         "en": "Shop",
