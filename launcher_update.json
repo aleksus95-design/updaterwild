@@ -1,13 +1,13 @@
 {
-    "version":  "2026.09.04.1940",
-    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.04.1940/SCUM_Official_Launcher.exe",
+    "version":  "2026.09.04.2005",
+    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.04.2005/SCUM_Official_Launcher.exe",
     "urls":  [
-        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.04.1940/SCUM_Official_Launcher.exe",
+        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.04.2005/SCUM_Official_Launcher.exe",
         "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
     ],
-    "sha256":  "9c3d5cf9452edd01f9c457c36929f73bb7c4f30cc36d837d954507bff1a43dfb",
-    "notes":  "SCUM Official Launcher 2026.09.04.1940: added large Wargm voting and shop actions with matching vector emblems, while keeping live BattleMetrics server data and the fixed endpoint 92.38.222.26:7008.",
-    "published_at":  "2026-09-04T19:40:00Z",
+    "sha256":  "eba9cdafd8cb9b8cbf233be32552a0cea2cbf74ed24d62cf15847d433e026481",
+    "notes":  "SCUM Official Launcher 2026.09.04.2005: optimized the Wargm vote and shop buttons so both emblems and localized captions align cleanly without clipping.",
+    "published_at":  "2026-09-04T20:05:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "SCUM_Official_Launcher.exe"
