@@ -1,13 +1,13 @@
 {
-    "version":  "2026.09.04.2005",
-    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.04.2005/SCUM_Official_Launcher.exe",
+    "version":  "2026.09.06.1800",
+    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.06.1800/SCUM_Official_Launcher.exe",
     "urls":  [
-        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.04.2005/SCUM_Official_Launcher.exe",
+        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.06.1800/SCUM_Official_Launcher.exe",
         "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
     ],
-    "sha256":  "eba9cdafd8cb9b8cbf233be32552a0cea2cbf74ed24d62cf15847d433e026481",
-    "notes":  "SCUM Official Launcher 2026.09.04.2005: optimized the Wargm vote and shop buttons so both emblems and localized captions align cleanly without clipping.",
-    "published_at":  "2026-09-04T20:05:00Z",
+    "sha256":  "6ed210e8bdaa198344d9610702039dd5f3a7c8ea5738fd29d48a99c0fa52c646",
+    "notes":  "SCUM Official Launcher 2026.09.06.1800: added a clear launch-mode selector, separate mod update action, selectable SCUM path, and refined the action layout for faster everyday use.",
+    "published_at":  "2026-09-06T18:00:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "SCUM_Official_Launcher.exe"
