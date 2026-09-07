@@ -1,13 +1,13 @@
 {
-    "version":  "2026.09.06.1810",
-    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.06.1810/SCUM_Official_Launcher.exe",
+    "version":  "2026.09.07.1310",
+    "url":  "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.07.1310/SCUM_Official_Launcher.exe",
     "urls":  [
-        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.06.1810/SCUM_Official_Launcher.exe",
+        "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.07.1310/SCUM_Official_Launcher.exe",
         "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
     ],
-    "sha256":  "e2ff4e79f4abe90b717179a33a23ae24a2b9fe99d749bd5e896ee0cca4c8e498",
-    "notes":  "SCUM Official Launcher rollback: restored the previous launcher layout and behavior while keeping the fixed Wargm vote-button alignment.",
-    "published_at":  "2026-09-06T18:10:00Z",
+    "sha256":  "35204b448d639d6faef06fbd59c32562fd851c68abea2a7f177af72339f957ee",
+    "notes":  "SCUM Official Launcher 2026.09.07.1310: updated the fixed SCUM server connection endpoint to 92.38.222.26:7014.",
+    "published_at":  "2026-09-07T13:10:00Z",
     "mandatory":  false,
     "package_format":  "exe",
     "launch_exe":  "SCUM_Official_Launcher.exe"
