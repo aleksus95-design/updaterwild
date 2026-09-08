@@ -1,13 +1,13 @@
 {
-  "version": "2026.09.08.1500",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.08.1500/SCUM_Official_Launcher.exe",
+  "version": "2026.09.08.1600",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.08.1600/SCUM_Official_Launcher.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.08.1500/SCUM_Official_Launcher.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.08.1600/SCUM_Official_Launcher.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
   ],
-  "sha256": "83e71138041b97925a6a868efa06f783572d648131988b744378d474de96c93b",
-  "notes": "SCUM Official Launcher 2026.09.08.1500: BattleMetrics 41110508, Wargm 82004, explicit RU/EN/ZH game language, preserved tips settings, consistent updates and compiled native core. Server: 92.38.222.26:7014.",
-  "published_at": "2026-09-08T09:42:17Z",
+  "sha256": "462ea4d6ffa1c06bba6b7ebf60b395e248641af222c84c6cd7723b8a4ef04496",
+  "notes": "SCUM Official Launcher 2026.09.08.1600: restored BattleMetrics server name, players, status and rank using its public page; 60-second refresh, validated server IP, unchanged design and native core. Server: 92.38.222.26:7014.",
+  "published_at": "2026-09-08T10:07:31Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "SCUM_Official_Launcher.exe"
