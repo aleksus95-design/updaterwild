@@ -1,13 +1,13 @@
 {
-  "version": "2026.09.08.1700",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.08.1700/SCUM_Official_Launcher.exe",
+  "version": "2026.09.09.1130",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.09.1130/SCUM_Official_Launcher.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.08.1700/SCUM_Official_Launcher.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.09.1130/SCUM_Official_Launcher.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
   ],
-  "sha256": "39a3c5b61befa82ddbcad742b6253e5a28ede15b951b1a672ca316d56534098f",
-  "notes": "SCUM Official Launcher 2026.09.08.1700: fixes native Qt button crashes when copying IP, launching the game, checking updates and deleting mods. Real clicked-signal tests added. Design, BattleMetrics and server 92.38.222.26:7014 unchanged.",
-  "published_at": "2026-09-08T10:30:43Z",
+  "sha256": "78730631973ba409be10dc3d4c4948defd813e2ca44a09a66d43eb315d26dee7",
+  "notes": "SCUM Official Launcher 2026.09.09.1130: server 92.38.222.26:7020, BattleMetrics 41133084, stricter statistics validation and HTTP diagnostics. 42 tests pass on source/native builds; button fixes and design preserved. BattleMetrics HTTP 403 may prevent live statistics; see release notes.",
+  "published_at": "2026-09-09T08:39:24Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "SCUM_Official_Launcher.exe"
