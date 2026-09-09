@@ -1,13 +1,13 @@
 {
-  "version": "2026.09.09.1130",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.09.1130/SCUM_Official_Launcher.exe",
+  "version": "2026.09.09.2233",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.09.2233/SCUM_Official_Launcher.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.09.1130/SCUM_Official_Launcher.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.09.2233/SCUM_Official_Launcher.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
   ],
-  "sha256": "78730631973ba409be10dc3d4c4948defd813e2ca44a09a66d43eb315d26dee7",
-  "notes": "SCUM Official Launcher 2026.09.09.1130: server 92.38.222.26:7020, BattleMetrics 41133084, stricter statistics validation and HTTP diagnostics. 42 tests pass on source/native builds; button fixes and design preserved. BattleMetrics HTTP 403 may prevent live statistics; see release notes.",
-  "published_at": "2026-09-09T08:39:24Z",
+  "sha256": "ef5ccecfe7da55175d51e49fd19d02ee3d818e08a342246a3088a07f6933fa5b",
+  "notes": "MIDWAY Launcher 2026.09.09.2233: new project background and icon, graphite/orange design and aligned action panels. BattleMetrics statistics and background requests removed completely; WebView2 no longer required. Server 92.38.222.26:7020, RU/EN/ZH, mod paths and auto-update compatibility preserved. 26 tests pass on source/native builds.",
+  "published_at": "2026-09-09T19:58:25Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "SCUM_Official_Launcher.exe"
