@@ -1,13 +1,13 @@
 {
-  "version": "2026.09.10.1518",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.1518/MIDWAY.exe",
+  "version": "2026.09.10.2003",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.2003/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.1518/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.2003/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "5ae59c212161ca5aeede3a21ca7788849c5f78b0fd86ceffc8becee5bac6e3e1",
-  "notes": "MIDWAY 2026.09.10.1518: MIDWAY.exe branding and new M icon; compact 1120x640 HQ background without cropping; bottom status row; graphite/orange updater with localized stages and reliable rollback. Old launcher names migrate to MIDWAY.exe; settings preserved. Server 109.248.4.18:7020, vote 82031, shop 82004. 41 source/native tests pass.",
-  "published_at": "2026-09-10T12:34:06Z",
+  "sha256": "963c76c82dd144124eff54c2b8bcd18ce8251acf5ba2eba70f7754c39dbd1403",
+  "notes": "MIDWAY 2026.09.10.2003: shop now opens https://wargm.ru/server/82031/shop. Vote 82031, server 109.248.4.18:7020, design, settings and updater are unchanged. Shop and vote button clicks verified in RU/EN/ZH; 41 source/native tests and packaged EXE self-check pass.",
+  "published_at": "2026-09-10T17:24:00Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
