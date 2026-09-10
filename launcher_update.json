@@ -1,13 +1,13 @@
 {
-  "version": "2026.09.09.2233",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.09.2233/SCUM_Official_Launcher.exe",
+  "version": "2026.09.10.1240",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.1240/SCUM_Official_Launcher.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.09.2233/SCUM_Official_Launcher.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.1240/SCUM_Official_Launcher.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
   ],
-  "sha256": "ef5ccecfe7da55175d51e49fd19d02ee3d818e08a342246a3088a07f6933fa5b",
-  "notes": "MIDWAY Launcher 2026.09.09.2233: new project background and icon, graphite/orange design and aligned action panels. BattleMetrics statistics and background requests removed completely; WebView2 no longer required. Server 92.38.222.26:7020, RU/EN/ZH, mod paths and auto-update compatibility preserved. 26 tests pass on source/native builds.",
-  "published_at": "2026-09-09T19:58:25Z",
+  "sha256": "bd2b8b63ed2fc63f9b646f9bf1d67d191d95528f18e41ae6ea9421bb6694704a",
+  "notes": "MIDWAY Launcher 2026.09.10.1240: server changed to 109.248.4.18:7020 for game launch, connection checks, address display and Copy IP. MIDWAY design, RU/EN/ZH, mod paths and auto-update compatibility preserved; BattleMetrics remains removed. 26 tests pass on source/native builds, plus smoke tests and packaged EXE self-check.",
+  "published_at": "2026-09-10T09:44:38Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "SCUM_Official_Launcher.exe"
