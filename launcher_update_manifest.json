@@ -1,14 +1,14 @@
 {
-  "version": "2026.09.10.1240",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.1240/SCUM_Official_Launcher.exe",
+  "version": "2026.09.10.1518",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.1518/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.1240/SCUM_Official_Launcher.exe",
-    "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/SCUM_Official_Launcher.exe"
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.10.1518/MIDWAY.exe",
+    "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "bd2b8b63ed2fc63f9b646f9bf1d67d191d95528f18e41ae6ea9421bb6694704a",
-  "notes": "MIDWAY Launcher 2026.09.10.1240: server changed to 109.248.4.18:7020 for game launch, connection checks, address display and Copy IP. MIDWAY design, RU/EN/ZH, mod paths and auto-update compatibility preserved; BattleMetrics remains removed. 26 tests pass on source/native builds, plus smoke tests and packaged EXE self-check.",
-  "published_at": "2026-09-10T09:44:38Z",
+  "sha256": "5ae59c212161ca5aeede3a21ca7788849c5f78b0fd86ceffc8becee5bac6e3e1",
+  "notes": "MIDWAY 2026.09.10.1518: MIDWAY.exe branding and new M icon; compact 1120x640 HQ background without cropping; bottom status row; graphite/orange updater with localized stages and reliable rollback. Old launcher names migrate to MIDWAY.exe; settings preserved. Server 109.248.4.18:7020, vote 82031, shop 82004. 41 source/native tests pass.",
+  "published_at": "2026-09-10T12:34:06Z",
   "mandatory": false,
   "package_format": "exe",
-  "launch_exe": "SCUM_Official_Launcher.exe"
+  "launch_exe": "MIDWAY.exe"
 }
