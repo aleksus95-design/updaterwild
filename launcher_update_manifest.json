@@ -1,13 +1,13 @@
 {
-  "version": "2026.09.12.1545",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.12.1545/MIDWAY.exe",
+  "version": "2026.10.04.0200",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.0200/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.09.12.1545/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.0200/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "b4d1c8d028c86a2339adb2da48c252a90144ca3ca812d31e24081dd48db35b22",
-  "notes": "MIDWAY 2026.09.12.1545: check D3DCOMPILER_43.dll before game/mod preparation and offer Microsoft DirectX installer page; Discord wXFagHbHJd pinned against stale cache; fix updater cleanup race, duplicate handoff and false success on loader error. Automatic new EXE restart tested. Server 109.248.4.18:7020 and Wargm 82031 unchanged. 51 source/native tests pass.",
-  "published_at": "2026-09-12T12:59:27Z",
+  "sha256": "ccd3d77f2f0955e2c393f20b377a43868f078e940f61af217abed614f362bde2",
+  "notes": "Два видимых сервера PvP/PvE с отдельным копированием IP; параллельная загрузка модов, быстрая смена источника и докачка после сетевых сбоев.",
+  "published_at": "2026-10-03T22:30:38Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
