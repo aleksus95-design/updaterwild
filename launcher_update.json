@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.04.1500",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1500/MIDWAY.exe",
+  "version": "2026.10.04.1600",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1600/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1500/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1600/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "14fe6e0eef649d37c7687d8283cfeeeff03cac01128d30442285055139157cbd",
-  "notes": "Обновлена сборка лаунчера: убран отдельный launcher_core.pyd и PowerShell из очистки обновления. Сохранены оба сервера, ускоренная загрузка и выбранный язык SCUM.",
-  "published_at": "2026-10-04T11:14:27Z",
+  "sha256": "6a882f3754410a20038650b6238a63f77816b8d1cd57fa125898c7a3ea322025",
+  "notes": "Проверка хешей установленных PAK; запрет неполного набора после сбоя загрузки; список модов фиксируется на одном коммите.",
+  "published_at": "2026-10-04T18:49:08Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
