@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.04.0200",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.0200/MIDWAY.exe",
+  "version": "2026.10.04.1400",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1400/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.0200/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1400/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "ccd3d77f2f0955e2c393f20b377a43868f078e940f61af217abed614f362bde2",
-  "notes": "Два видимых сервера PvP/PvE с отдельным копированием IP; параллельная загрузка модов, быстрая смена источника и докачка после сетевых сбоев.",
-  "published_at": "2026-10-03T22:30:38Z",
+  "sha256": "423042d35776ce162a5b96484adf5ff4d526008ad03e670f610089a49f126f01",
+  "notes": "Исправлено принудительное переключение языка SCUM. RU/EN/ZH управляют только интерфейсом MIDWAY; язык игры выбирается в SCUM.",
+  "published_at": "2026-10-04T10:53:30Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
