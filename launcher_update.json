@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.04.1400",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1400/MIDWAY.exe",
+  "version": "2026.10.04.1500",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1500/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1400/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1500/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "423042d35776ce162a5b96484adf5ff4d526008ad03e670f610089a49f126f01",
-  "notes": "Исправлено принудительное переключение языка SCUM. RU/EN/ZH управляют только интерфейсом MIDWAY; язык игры выбирается в SCUM.",
-  "published_at": "2026-10-04T10:53:30Z",
+  "sha256": "14fe6e0eef649d37c7687d8283cfeeeff03cac01128d30442285055139157cbd",
+  "notes": "Обновлена сборка лаунчера: убран отдельный launcher_core.pyd и PowerShell из очистки обновления. Сохранены оба сервера, ускоренная загрузка и выбранный язык SCUM.",
+  "published_at": "2026-10-04T11:14:27Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
