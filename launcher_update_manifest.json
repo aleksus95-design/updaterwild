@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.06.1800",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.06.1800/MIDWAY.exe",
+  "version": "2026.10.06.1900",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.06.1900/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.06.1800/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.06.1900/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "c42908914fa21afa117a8e1954f4b98ba5bcc0a417f920fb7ecf608008df2894",
-  "notes": "При запуске игры теперь появляется выбор сервера: PvP или PvE. Крупные кнопки с IP и отмена запуска.",
-  "published_at": "2026-10-06T14:40:25Z",
+  "sha256": "0d84b83818e67f2fc3cccdcfd0510a4427f2223f8b1d3cb99f56747b0a3d4633",
+  "notes": "Обновлён выбор PvP/PvE. Убраны лишние переключатели; магазин и голосование открываются для выбранного сервера WarGM.",
+  "published_at": "2026-10-06T19:08:21Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
