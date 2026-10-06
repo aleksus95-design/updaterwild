@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.04.1600",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1600/MIDWAY.exe",
+  "version": "2026.10.06.1800",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.06.1800/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.04.1600/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.06.1800/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "6a882f3754410a20038650b6238a63f77816b8d1cd57fa125898c7a3ea322025",
-  "notes": "Проверка хешей установленных PAK; запрет неполного набора после сбоя загрузки; список модов фиксируется на одном коммите.",
-  "published_at": "2026-10-04T18:49:08Z",
+  "sha256": "c42908914fa21afa117a8e1954f4b98ba5bcc0a417f920fb7ecf608008df2894",
+  "notes": "При запуске игры теперь появляется выбор сервера: PvP или PvE. Крупные кнопки с IP и отмена запуска.",
+  "published_at": "2026-10-06T14:40:25Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
