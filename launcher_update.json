@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.08.2000",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.08.2000/MIDWAY.exe",
+  "version": "2026.10.08.2100",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.08.2100/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.08.2000/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.08.2100/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "0a21f3a8cfed3a806005ed2485b0490af8fe0799189c7f1e6e799fa374830633",
-  "notes": "Исправлены ошибки загрузки списка модов и длинных путей Windows. Добавлено получение полного набора при недоступности GitHub API.",
-  "published_at": "2026-10-08T14:14:17Z",
+  "sha256": "456b3e7f07c6ed1efea2a9ffd1804043ce82fdd7203e527ea7a8392f9399a799",
+  "notes": "Защищены файлы лаунчера при очистке модов. Исправлена очистка при долгом запуске игры и получение актуального списка через GitHub CDN.",
+  "published_at": "2026-10-08T17:42:15Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
