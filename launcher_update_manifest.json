@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.06.1900",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.06.1900/MIDWAY.exe",
+  "version": "2026.10.08.2000",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.08.2000/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.06.1900/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.08.2000/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "0d84b83818e67f2fc3cccdcfd0510a4427f2223f8b1d3cb99f56747b0a3d4633",
-  "notes": "Обновлён выбор PvP/PvE. Убраны лишние переключатели; магазин и голосование открываются для выбранного сервера WarGM.",
-  "published_at": "2026-10-06T19:08:21Z",
+  "sha256": "0a21f3a8cfed3a806005ed2485b0490af8fe0799189c7f1e6e799fa374830633",
+  "notes": "Исправлены ошибки загрузки списка модов и длинных путей Windows. Добавлено получение полного набора при недоступности GitHub API.",
+  "published_at": "2026-10-08T14:14:17Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
