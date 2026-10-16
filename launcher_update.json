@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.15.2200",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.15.2200/MIDWAY.exe",
+  "version": "2026.10.16.2300",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.16.2300/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.15.2200/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.16.2300/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "b20c33c0fa92161cf4a11d078d67524588eafcd8f20a8817bf81d1e76c76d2e8",
-  "notes": "Добавлено автоматическое окно с предложением обновить лаунчер. Проверка при запуске и раз в минуту, без прерывания игры и операций с модами.",
-  "published_at": "2026-10-15T09:04:37Z",
+  "sha256": "33ed7e9675ed1ad39862e19d97f234834cf968ebc8d786dbba90aabdf7015e2f",
+  "notes": "Добавлен ручной выбор папки SCUM с примерами пути, инструкцией Steam, проверкой папки и сохранением выбора.",
+  "published_at": "2026-10-16T09:25:02Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
