@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.16.2300",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.16.2300/MIDWAY.exe",
+  "version": "2026.10.25.2400",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.25.2400/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.16.2300/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.25.2400/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "33ed7e9675ed1ad39862e19d97f234834cf968ebc8d786dbba90aabdf7015e2f",
-  "notes": "Добавлен ручной выбор папки SCUM с примерами пути, инструкцией Steam, проверкой папки и сохранением выбора.",
-  "published_at": "2026-10-16T09:25:02Z",
+  "sha256": "b050b58e671e6c2926537f32d71305b352ddc87c4d6d1d9faf6c30c572f6eeec",
+  "notes": "Ускорена загрузка модов: официальный LFS CDN, параллельная докачка, сохранение проверенных файлов и контроль полного комплекта.",
+  "published_at": "2026-10-25T17:54:35Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
