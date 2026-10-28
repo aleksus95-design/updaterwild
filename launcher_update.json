@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.25.2400",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.25.2400/MIDWAY.exe",
+  "version": "2026.10.29.2500",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.29.2500/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.25.2400/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.29.2500/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "b050b58e671e6c2926537f32d71305b352ddc87c4d6d1d9faf6c30c572f6eeec",
-  "notes": "Ускорена загрузка модов: официальный LFS CDN, параллельная докачка, сохранение проверенных файлов и контроль полного комплекта.",
-  "published_at": "2026-10-25T17:54:35Z",
+  "sha256": "2f6d9e35141cfc62b22aac3cfa51f4ec637da2f23f6332f96c6ea0e9db67a49e",
+  "notes": "Исправлена загрузка небольших модов Git LFS и поиск SCUM при недоступных дисках.",
+  "published_at": "2026-10-28T21:53:49Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
