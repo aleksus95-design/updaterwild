@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.29.2600",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.29.2600/MIDWAY.exe",
+  "version": "2026.10.29.2700",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.29.2700/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.29.2600/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.29.2700/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "761611225de581d0b25db83df0a425fbc7b9dcea2ffef201fa9b65ae5ecaa104",
+  "sha256": "9c5724989e9d589d089195b8238130f0aaf7cb565d3f3544995f69afe620c213",
   "notes": "Исправлено обнаружение обновлений: два CDN-манифеста без лимитов API и видимый повтор проверки при ошибке.",
-  "published_at": "2026-10-29T18:35:07Z",
+  "published_at": "2026-10-29T18:44:07Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
