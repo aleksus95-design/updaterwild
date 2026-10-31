@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.29.2700",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.29.2700/MIDWAY.exe",
+  "version": "2026.10.31.2800",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.31.2800/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.29.2700/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.31.2800/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "9c5724989e9d589d089195b8238130f0aaf7cb565d3f3544995f69afe620c213",
-  "notes": "Исправлено обнаружение обновлений: два CDN-манифеста без лимитов API и видимый повтор проверки при ошибке.",
-  "published_at": "2026-10-29T18:44:07Z",
+  "sha256": "2d8a97c087bdcf531edad9215c00161b25d4dd2a3cf3de1009683750c2344297",
+  "notes": "Исправлена докачка модов: сохранение частей при обрывах и смене источника, повторы отдельных частей, поддержка медленных соединений.",
+  "published_at": "2026-10-31T09:38:48Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
