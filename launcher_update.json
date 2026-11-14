@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.31.2800",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.31.2800/MIDWAY.exe",
+  "version": "2026.11.15.2900",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.15.2900/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.10.31.2800/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.15.2900/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "2d8a97c087bdcf531edad9215c00161b25d4dd2a3cf3de1009683750c2344297",
-  "notes": "Исправлена докачка модов: сохранение частей при обрывах и смене источника, повторы отдельных частей, поддержка медленных соединений.",
-  "published_at": "2026-10-31T09:38:48Z",
+  "sha256": "c1344d56b7e01b8a7a20309a57930b576b11a515017476bb974e6e3c2fd14f22",
+  "notes": "Новое оформление MIDWAY, карточки PvP/PvE с отдельными изображениями и плавным затемнением, новая музыка.",
+  "published_at": "2026-11-14T22:56:53Z",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe"
