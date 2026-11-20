@@ -1,14 +1,14 @@
 {
-  "version": "2026.11.20.3002",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3002/MIDWAY.exe",
+  "version": "2026.11.20.3003",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3003/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3002/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3003/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "9904b4c86c2bf5d98e025eaf0a2952a8e75a84c3c1aee9e09f90704fb743094f",
-  "notes": "Исправлена загрузка модов в окне MIDWAY. Видны общий объём, скорость всех потоков и число готовых паков. После обрыва загрузка продолжается с полученного места. Обновление с версии 3000 переносит имеющийся игровой модуль. Для скачивания модов WinFsp не требуется.",
+  "sha256": "65f34c63d0e5646556396aca56b2131030d09417238b156991a4c2e946fd0055",
+  "notes": "Ускорена докачка последнего медленного пака. MIDWAY подключает освободившиеся соединения к оставшимся частям файла и проверяет SHA-256. Нижняя строка отдельно показывает получение ссылки, загрузку и проверку файла на диске. Готовые паки сохраняются в кэше.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-20T16:10:48Z"
+  "published_at": "2026-11-20T16:38:11Z"
 }
