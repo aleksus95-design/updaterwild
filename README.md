@@ -36,3 +36,7 @@
 Для ошибки D3DCOMPILER_43.dll доступен [официальный Microsoft DirectX End-User Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=35).
 
 У MIDWAY.exe пока нет Authenticode-подписи издателя. SHA-256 указан в релизе.
+
+## Вариант с загрузкой модов через GitHub
+
+[Скачать MIDWAY-GitHub.exe 2026.11.20.3006](https://github.com/aleksus95-design/updaterwild/releases/download/launcher-github-2026.11.20.3006/MIDWAY-GitHub.exe). Это отдельная версия с собственным каналом обновлений. Обычный MIDWAY 3005 остаётся доступен выше. В хранилище GitHub находятся зашифрованные моды; аккаунт GitHub игроку не нужен. После проверки файлов моды подключаются через WinFsp. Каталог, временные ссылки и разрешения расшифровки пока требуют доступности Yandex Cloud Functions.

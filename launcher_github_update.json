@@ -1,0 +1,15 @@
+{
+  "version": "2026.11.20.3006",
+  "channel": "github",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-github-2026.11.20.3006/MIDWAY-GitHub.exe",
+  "urls": [
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-github-2026.11.20.3006/MIDWAY-GitHub.exe",
+    "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY-GitHub.exe"
+  ],
+  "sha256": "33c1fbd0a3bbd5f1ac60a6377fbd603929e2bf373fe6eb291e52f603aeabecab",
+  "notes": "Отдельный вариант MIDWAY с загрузкой зашифрованных модов через GitHub. Хранилище модов закрыто, игрокам не нужен GitHub-аккаунт или токен. Лаунчер получает временные ссылки от серверной службы и проверяет SHA-256 файлов. Проверено скачивание всех 79 файлов без авторизации игрока и подключение PvP/PvE. WinFsp и оформление сохранены. Каталог, ссылки и разрешения расшифровки выдаются через Yandex Cloud Functions; при полной недоступности этой службы запуск не обеспечивается.",
+  "mandatory": false,
+  "package_format": "exe",
+  "launch_exe": "MIDWAY-GitHub.exe",
+  "published_at": "2026-11-20T18:12:25Z"
+}
