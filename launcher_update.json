@@ -1,14 +1,14 @@
 {
-  "version": "2026.11.20.3003",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3003/MIDWAY.exe",
+  "version": "2026.11.20.3004",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3004/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3003/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3004/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "65f34c63d0e5646556396aca56b2131030d09417238b156991a4c2e946fd0055",
-  "notes": "Ускорена докачка последнего медленного пака. MIDWAY подключает освободившиеся соединения к оставшимся частям файла и проверяет SHA-256. Нижняя строка отдельно показывает получение ссылки, загрузку и проверку файла на диске. Готовые паки сохраняются в кэше.",
+  "sha256": "bec343420c705b4c6d0e9ced5d20612b004e3cdb40b1847e42e8e84e2d814b52",
+  "notes": "При запуске MIDWAY проверяет совместимость WinFsp с игровым модулем. Если WinFsp отсутствует или установлена старая версия 2.1, встроенный официальный WinFsp 2.2.26323 устанавливается или обновляется после подтверждения Windows. Установка тихая, без отдельной загрузки и без автоматической перезагрузки. Совместимая версия повторно не устанавливается. Исправлена подготовка WinFsp для случая TypeInitializationException при несовпадении версий SDK 2.2 и DLL 2.1. Исправления скорости загрузки из версии 3003 сохранены.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-20T16:38:11Z"
+  "published_at": "2026-11-20T16:57:10Z"
 }
