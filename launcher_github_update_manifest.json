@@ -1,15 +1,15 @@
 {
-  "version": "2026.11.20.3006",
-  "channel": "github",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-github-2026.11.20.3006/MIDWAY-GitHub.exe",
+  "version": "2026.11.20.3007",
+  "channel": "unified",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3007/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-github-2026.11.20.3006/MIDWAY-GitHub.exe",
-    "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY-GitHub.exe"
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3007/MIDWAY.exe",
+    "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "33c1fbd0a3bbd5f1ac60a6377fbd603929e2bf373fe6eb291e52f603aeabecab",
-  "notes": "Отдельный вариант MIDWAY с загрузкой зашифрованных модов через GitHub. Хранилище модов закрыто, игрокам не нужен GitHub-аккаунт или токен. Лаунчер получает временные ссылки от серверной службы и проверяет SHA-256 файлов. Проверено скачивание всех 79 файлов без авторизации игрока и подключение PvP/PvE. WinFsp и оформление сохранены. Каталог, ссылки и разрешения расшифровки выдаются через Yandex Cloud Functions; при полной недоступности этой службы запуск не обеспечивается.",
+  "sha256": "d44528ecc434548e17a10afc0201401f632c1bb8dffd551c925b2b4ce52b3366",
+  "notes": "Единый MIDWAY: загрузка зашифрованных модов с GitHub и Яндекса. В режиме «Загрузка: Авто» при сбое источник переключается, скачанная часть файла сохраняется. Можно выбрать только GitHub или только Яндекс. Файлы проверяются по SHA-256 перед подключением. Обычная версия и MIDWAY-GitHub обновляются до одного лаунчера. Каталог, временные ссылки и разрешения расшифровки пока требуют доступности Yandex Cloud Functions.",
   "mandatory": false,
   "package_format": "exe",
-  "launch_exe": "MIDWAY-GitHub.exe",
-  "published_at": "2026-11-20T18:12:25Z"
+  "launch_exe": "MIDWAY.exe",
+  "published_at": "2026-11-20T18:28:09Z"
 }

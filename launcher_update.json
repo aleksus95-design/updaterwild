@@ -1,14 +1,15 @@
 {
-  "version": "2026.11.20.3005",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3005/MIDWAY.exe",
+  "version": "2026.11.20.3007",
+  "channel": "unified",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3007/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3005/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3007/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "fbc448cd542616747b9e75db6fd0c3e7b843a26b169d90b7f257c5aeb6000442",
-  "notes": "Исправлено восстановление пустой папки подключения модов после неудачного запуска, включая случай InvalidDataException без сохранённой записи подключения. Исправлена обработка различий регистра букв в пути Windows. Игровой модуль встроен в этот EXE: базовая версия 3000 больше не требуется. При другом сбое показываются причина и этап, а подробности записываются в журнал. Тихая установка WinFsp 2.2 после подтверждения Windows и ускоренная докачка из версии 3003 сохранены.",
+  "sha256": "d44528ecc434548e17a10afc0201401f632c1bb8dffd551c925b2b4ce52b3366",
+  "notes": "Единый MIDWAY: загрузка зашифрованных модов с GitHub и Яндекса. В режиме «Загрузка: Авто» при сбое источник переключается, скачанная часть файла сохраняется. Можно выбрать только GitHub или только Яндекс. Файлы проверяются по SHA-256 перед подключением. Обычная версия и MIDWAY-GitHub обновляются до одного лаунчера. Каталог, временные ссылки и разрешения расшифровки пока требуют доступности Yandex Cloud Functions.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-20T17:40:29Z"
+  "published_at": "2026-11-20T18:28:09Z"
 }
