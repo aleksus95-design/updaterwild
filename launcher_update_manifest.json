@@ -1,14 +1,14 @@
 {
-  "version": "2026.11.20.3004",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3004/MIDWAY.exe",
+  "version": "2026.11.20.3005",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3005/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3004/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3005/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "bec343420c705b4c6d0e9ced5d20612b004e3cdb40b1847e42e8e84e2d814b52",
-  "notes": "При запуске MIDWAY проверяет совместимость WinFsp с игровым модулем. Если WinFsp отсутствует или установлена старая версия 2.1, встроенный официальный WinFsp 2.2.26323 устанавливается или обновляется после подтверждения Windows. Установка тихая, без отдельной загрузки и без автоматической перезагрузки. Совместимая версия повторно не устанавливается. Исправлена подготовка WinFsp для случая TypeInitializationException при несовпадении версий SDK 2.2 и DLL 2.1. Исправления скорости загрузки из версии 3003 сохранены.",
+  "sha256": "fbc448cd542616747b9e75db6fd0c3e7b843a26b169d90b7f257c5aeb6000442",
+  "notes": "Исправлено восстановление пустой папки подключения модов после неудачного запуска, включая случай InvalidDataException без сохранённой записи подключения. Исправлена обработка различий регистра букв в пути Windows. Игровой модуль встроен в этот EXE: базовая версия 3000 больше не требуется. При другом сбое показываются причина и этап, а подробности записываются в журнал. Тихая установка WinFsp 2.2 после подтверждения Windows и ускоренная докачка из версии 3003 сохранены.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-20T16:57:10Z"
+  "published_at": "2026-11-20T17:40:29Z"
 }
