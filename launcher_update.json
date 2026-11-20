@@ -1,14 +1,14 @@
 {
-  "version": "2026.11.15.2900",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.15.2900/MIDWAY.exe",
-  "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.15.2900/MIDWAY.exe",
-    "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
-  ],
-  "sha256": "c1344d56b7e01b8a7a20309a57930b576b11a515017476bb974e6e3c2fd14f22",
-  "notes": "Новое оформление MIDWAY, карточки PvP/PvE с отдельными изображениями и плавным затемнением, новая музыка.",
-  "published_at": "2026-11-14T22:56:53Z",
+  "version": "2026.11.20.3000",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3000/MIDWAY.exe",
+  "sha256": "21f12405cb8b8122cbbcb4822ebaeabbbbb2dae579bf76184fb0a17859b93050",
+  "notes": "Номер установленной версии снова виден слева. Выберите PvE или PvP, чтобы подготовить зашифрованные моды из Яндекс Облака. Кнопка ручной загрузки находится под выбором папки SCUM.",
+  "published_at": "2026-11-20T15:17:58Z",
   "mandatory": false,
   "package_format": "exe",
-  "launch_exe": "MIDWAY.exe"
+  "launch_exe": "MIDWAY.exe",
+  "urls": [
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3000/MIDWAY.exe",
+    "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
+  ]
 }
