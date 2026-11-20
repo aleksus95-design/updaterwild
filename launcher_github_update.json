@@ -1,15 +1,15 @@
 {
-  "version": "2026.11.20.3008",
-  "channel": "unified",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3008/MIDWAY.exe",
+  "version": "2026.11.20.3009",
+  "channel": "plain",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3009/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3008/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3009/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "d3a9b41a0b50bb33513bb47370480291a335ec0ec968ecb82977903a0a460340",
-  "notes": "Единый MIDWAY: загрузка зашифрованных модов с GitHub и Яндекса. В режиме «Загрузка: Авто» при сбое источник переключается, скачанная часть файла сохраняется. Можно выбрать только GitHub или только Яндекс. Файлы проверяются по SHA-256 перед подключением. При ошибке «Этот хост неизвестен» используется резервное определение адреса через защищённый DNS. Повреждённая смешанная загрузка повторяется целиком с текущего источника. Обычная версия и MIDWAY-GitHub обновляются до одного лаунчера. Каталог, временные ссылки и разрешения расшифровки пока требуют доступности Yandex Cloud Functions.",
+  "sha256": "c9e068d2a6183d2c0004e2a75dfa4d211fc36cae2b93595c159b2514dc0f2c4d",
+  "notes": "Возврат обычной работы лаунчера на базе версии 2900: PAK скачиваются напрямую с GitHub, без шифрования, WinFsp и службы ключей Яндекса. В EXE встроен полный каталог текущих 79 клиентских модов. Сохранены оформление, музыка, PvP/PvE, выбор папки, удаление модов, докачка и проверка целостности. Номер 3009 нужен для обновления игроков с версии 3008. Зашифрованные версии сохранены для дальнейшей доработки.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-20T18:37:29Z"
+  "published_at": "2026-11-20T19:04:10Z"
 }
