@@ -1,15 +1,15 @@
 {
-  "version": "2026.11.20.3007",
+  "version": "2026.11.20.3008",
   "channel": "unified",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3007/MIDWAY.exe",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3008/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3007/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3008/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "d44528ecc434548e17a10afc0201401f632c1bb8dffd551c925b2b4ce52b3366",
-  "notes": "Единый MIDWAY: загрузка зашифрованных модов с GitHub и Яндекса. В режиме «Загрузка: Авто» при сбое источник переключается, скачанная часть файла сохраняется. Можно выбрать только GitHub или только Яндекс. Файлы проверяются по SHA-256 перед подключением. Обычная версия и MIDWAY-GitHub обновляются до одного лаунчера. Каталог, временные ссылки и разрешения расшифровки пока требуют доступности Yandex Cloud Functions.",
+  "sha256": "d3a9b41a0b50bb33513bb47370480291a335ec0ec968ecb82977903a0a460340",
+  "notes": "Единый MIDWAY: загрузка зашифрованных модов с GitHub и Яндекса. В режиме «Загрузка: Авто» при сбое источник переключается, скачанная часть файла сохраняется. Можно выбрать только GitHub или только Яндекс. Файлы проверяются по SHA-256 перед подключением. При ошибке «Этот хост неизвестен» используется резервное определение адреса через защищённый DNS. Повреждённая смешанная загрузка повторяется целиком с текущего источника. Обычная версия и MIDWAY-GitHub обновляются до одного лаунчера. Каталог, временные ссылки и разрешения расшифровки пока требуют доступности Yandex Cloud Functions.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-20T18:28:09Z"
+  "published_at": "2026-11-20T18:37:29Z"
 }
