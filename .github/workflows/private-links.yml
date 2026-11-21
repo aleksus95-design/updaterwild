@@ -1,0 +1,81 @@
+name: Refresh private MIDWAY download links
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,17,27,37,47,57 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: midway-private-links
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PRIVATE_READ_TOKEN: ${{ secrets.MIDWAY_PRIVATE_READ_TOKEN }}
+      PUBLIC_WRITE_TOKEN: ${{ github.token }}
+      PUBLIC_REPO: ${{ github.repository }}
+    steps:
+      - name: Refresh expiring CDN links without exposing repository credentials
+        shell: python
+        run: |
+          import base64,datetime,json,os,time,urllib.error,urllib.parse,urllib.request
+          public=os.environ['PUBLIC_REPO']; assert public=='aleksus95-design/updaterwild'
+          private_token=os.environ['PRIVATE_READ_TOKEN']; write_token=os.environ['PUBLIC_WRITE_TOKEN']
+          assert private_token and write_token
+          class NoRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self,*args):return None
+          def api(path,token,body=None,accept='application/vnd.github+json'):
+              url='https://api.github.com/repos/'+path
+              headers={'Authorization':'Bearer '+token,'Accept':accept,'User-Agent':'MIDWAY-profile-links','X-GitHub-Api-Version':'2022-11-28'}
+              if body is not None:headers['Content-Type']='application/json'
+              req=urllib.request.Request(url,None if body is None else json.dumps(body).encode(),headers,method='PUT' if body is not None else 'GET')
+              for attempt in range(3):
+                  try:
+                      with urllib.request.build_opener(NoRedirect).open(req,timeout=30) as response:return json.loads(response.read())
+                  except urllib.error.HTTPError as error:
+                      code=error.code
+                      if code==302 and accept=='application/octet-stream':
+                          link=error.headers['Location'];error.close();return link
+                      error.close()
+                      if code==404:raise LookupError('not found') from None
+                      if code in (403,429,500,502,503,504) and attempt<2:time.sleep(10*(attempt+1));continue
+                      raise RuntimeError('GitHub API failed HTTP '+str(code)) from None
+          index_path=public+'/contents/private_links.json'
+          previous={};blob=None
+          try:
+              current=api(index_path,write_token);blob=current['sha'];previous=json.loads(base64.b64decode(current['content']))
+          except LookupError:pass
+          result={'schema':1,'generated':int(time.time()),'profiles':{}}
+          refreshed=0
+          for profile,repo in [('pvp','PvP'),('pve','PvE')]:
+              release=api('aleksus95-design/'+repo+'/releases/tags/client-20261121',private_token)
+              files=[]
+              for page in (1,2,3):
+                  rows=api('aleksus95-design/'+repo+'/releases/'+str(release['id'])+'/assets?per_page=100&page='+str(page),private_token)
+                  files.extend(rows)
+                  if len(rows)<100:break
+              assert len(files)==79 and all(f['name'].endswith('.pak') and f['state']=='uploaded' for f in files)
+              old=previous.get('profiles',{}).get(profile,{}).get('files',{})
+              links={}
+              for item in files:
+                  name=item['name'];digest=item['digest'].removeprefix('sha256:');entry=old.get(name,{})
+                  if entry.get('expires',0)>time.time()+1500 and entry.get('sha256')==digest:
+                      links[name]=entry;continue
+                  # Query nonce prevents an upstream cached redirect from retaining an old expiry.
+                  path='aleksus95-design/'+repo+'/releases/assets/'+str(item['id'])+'?fresh='+str(int(time.time()))
+                  link=api(path,private_token,accept='application/octet-stream')
+                  parts=urllib.parse.urlsplit(link)
+                  assert parts.scheme=='https' and parts.hostname=='release-assets.githubusercontent.com'
+                  assert not parts.username and not parts.password and not parts.fragment and parts.port in (None,443)
+                  deadline=urllib.parse.parse_qs(parts.query)['se'][0]
+                  expiry=datetime.datetime.fromisoformat(deadline.replace('Z','+00:00')).timestamp()
+                  assert expiry>time.time()+1800
+                  links[name]={'url':link,'expires':expiry,'size':item['size'],'sha256':digest}
+                  refreshed+=1;time.sleep(0.15)
+              result['profiles'][profile]={'release':'client-20261121','files':links}
+          payload={'message':'Refresh temporary MIDWAY download links','content':base64.b64encode(json.dumps(result,separators=(',',':')).encode()).decode()}
+          if blob:payload['sha']=blob
+          api(index_path,write_token,payload)
+          print('Validated 158 private asset links; refreshed',refreshed)
