@@ -56,7 +56,9 @@ jobs:
                   rows=api('aleksus95-design/'+repo+'/releases/'+str(release['id'])+'/assets?per_page=100&page='+str(page),private_token)
                   files.extend(rows)
                   if len(rows)<100:break
-              assert len(files)==79 and all(f['name'].endswith('.pak') and f['state']=='uploaded' for f in files)
+              assert len(files)==80 and all(f['state']=='uploaded' for f in files)
+              files=[f for f in files if f['size']>=10*1024**2]
+              assert len(files)==33 and any(f['name']=='MIDWAY-small-mods.zip' for f in files)
               old=previous.get('profiles',{}).get(profile,{}).get('files',{})
               links={}
               for item in files:
@@ -71,11 +73,14 @@ jobs:
                   assert not parts.username and not parts.password and not parts.fragment and parts.port in (None,443)
                   deadline=urllib.parse.parse_qs(parts.query)['se'][0]
                   expiry=datetime.datetime.fromisoformat(deadline.replace('Z','+00:00')).timestamp()
-                  assert expiry>time.time()+1800
+                  jwt=urllib.parse.parse_qs(parts.query)['jwt'][0].split('.')[1]
+                  jwt_exp=json.loads(base64.urlsafe_b64decode(jwt+'==='))['exp']
+                  expiry=min(expiry,jwt_exp)
+                  assert expiry>time.time()+1500
                   links[name]={'url':link,'expires':expiry,'size':item['size'],'sha256':digest}
                   refreshed+=1;time.sleep(0.15)
               result['profiles'][profile]={'release':'client-20261121','files':links}
           payload={'message':'Refresh temporary MIDWAY download links','content':base64.b64encode(json.dumps(result,separators=(',',':')).encode()).decode()}
           if blob:payload['sha']=blob
           api(index_path,write_token,payload)
-          print('Validated 158 private asset links; refreshed',refreshed)
+          print('Validated 66 private asset links; refreshed',refreshed)
