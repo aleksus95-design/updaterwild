@@ -47,7 +47,7 @@ jobs:
           try:
               current=api(index_path,write_token);blob=current['sha'];previous=json.loads(base64.b64decode(current['content']))
           except LookupError:pass
-          result={'schema':1,'generated':int(time.time()),'profiles':{}}
+          result={'schema':1,'linkExpiryVersion':2,'generated':int(time.time()),'profiles':{}}
           refreshed=0
           for profile,repo in [('pvp','PvP'),('pve','PvE')]:
               release=api('aleksus95-design/'+repo+'/releases/tags/client-20261121',private_token)
@@ -59,7 +59,7 @@ jobs:
               assert len(files)==80 and all(f['state']=='uploaded' for f in files)
               files=[f for f in files if f['size']>=10*1024**2]
               assert len(files)==33 and any(f['name']=='MIDWAY-small-mods.zip' for f in files)
-              old=previous.get('profiles',{}).get(profile,{}).get('files',{})
+              old=previous.get('profiles',{}).get(profile,{}).get('files',{}) if previous.get('linkExpiryVersion')==2 else {}
               links={}
               for item in files:
                   name=item['name'];digest=item['digest'].removeprefix('sha256:');entry=old.get(name,{})
