@@ -1,16 +1,16 @@
 {
-  "version": "2026.11.22.3014",
+  "version": "2026.11.22.3015",
   "channel": "plain",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3014/MIDWAY.exe",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3015/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3014/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3015/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "71625049fec49ca3aa6c6cb8cc32a483113f30a1bb926004e4cedb469cec61f0",
-  "size": 30710784,
-  "notes": "MIDWAY 1.0.4: устранено мигание онлайна PvP между запросами, независимые запросы PvP/PvE. Сохранены исправления загрузки и установки модов.",
+  "sha256": "4b8264194ab5b58167f8e618f4a33c07e564eda9c45a40c8c9b653359cc5d441",
+  "size": 30738944,
+  "notes": "MIDWAY 1.0.5: загрузка модов и обновлений использует проверку сертификатов Windows; исправлена совместимость HTTPS при UnknownIssuer.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-22T14:51:44Z"
+  "published_at": "2026-11-22T16:12:15Z"
 }
