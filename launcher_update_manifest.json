@@ -1,16 +1,16 @@
 {
-  "version": "2026.11.22.3011",
+  "version": "2026.11.22.3012",
   "channel": "plain",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3011/MIDWAY.exe",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3012/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3011/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3012/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "601b377b886c269b10d0e659006756fa9928696b61858b9f3599b6f8088c2c4c",
-  "size": 30672896,
-  "notes": "MIDWAY 1.0.1: автоматическая подготовка WebView2 и исправленные параметры запуска Steam.",
+  "sha256": "f4a1f48f1a4c62e43f3c223d271432ba0531445f83ff5e4f635244cc88b07527",
+  "size": 30686208,
+  "notes": "MIDWAY 1.0.2: прямой запуск SCUM как в версии 3009, без ссылки Steam и без изменения настроек Steam.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-22T13:32:42Z"
+  "published_at": "2026-11-22T14:20:40Z"
 }
