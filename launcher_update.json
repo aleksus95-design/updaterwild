@@ -1,16 +1,15 @@
 {
-  "version": "2026.11.22.3010",
+  "version": "2026.11.20.3009",
   "channel": "plain",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/midway-rust-1.0.0/MIDWAY.exe",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3009/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/midway-rust-1.0.0/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.20.3009/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "3e01ad5c6fac53ad3bbf1f4ba99cbc87633cf8d74576b7647125b0bb762751d2",
-  "size": 28829184,
-  "notes": "MIDWAY 1.0.0 на Rust: отдельные PvP/PvE, обычная параллельная загрузка с GitHub и докачка. После установки лаунчер откроется автоматически.",
+  "sha256": "c9e068d2a6183d2c0004e2a75dfa4d211fc36cae2b93595c159b2514dc0f2c4d",
+  "notes": "Возврат обычной работы лаунчера на базе версии 2900: PAK скачиваются напрямую с GitHub, без шифрования, WinFsp и службы ключей Яндекса. В EXE встроен полный каталог текущих 79 клиентских модов. Сохранены оформление, музыка, PvP/PvE, выбор папки, удаление модов, докачка и проверка целостности. Номер 3009 нужен для обновления игроков с версии 3008. Зашифрованные версии сохранены для дальнейшей доработки.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-22T13:14:24Z"
+  "published_at": "2026-11-20T19:04:10Z"
 }
