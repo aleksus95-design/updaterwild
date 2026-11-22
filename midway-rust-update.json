@@ -1,13 +1,13 @@
 {
-  "version": "1.0.2",
-  "notes": "MIDWAY 1.0.2: прямой запуск SCUM как в версии 3009, без ссылки Steam и без изменения настроек Steam.",
-  "pub_date": "2026-11-22T14:20:40Z",
+  "version": "1.0.3",
+  "notes": "MIDWAY 1.0.3: исправлено ложное 0/0 при готовых файлах, ускорена проверка, показаны этапы скачивания и установки модов.",
+  "pub_date": "2026-11-22T14:38:44Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3012/MIDWAY.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUV2xtQVVYbGhrRmVBTTN4cUNvWU5mOXloMXhERmZIdlU5RVpkcHRHTk84OFhFNkJleUVPMXg5bDZkWHVJUjQyd0krMk96NGxOWndYWXJQVkNTNUhsUDVDSk9seUxPRUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU3MTg2CWZpbGU6TUlEV0FZLmV4ZQl2ZXJzaW9uOjEuMC4yCkpHZXFHTWxCMjNyTUZwelBqbzVudDdUUzZMWisyWUUrclFocG5UUnN1Ni9YVXliZmpqcVhWZXMzV3dzNTlVb3Q2YW4rbXduUnd0NEdMUVBxUVJHckJBPT0K",
-      "sha256": "f4a1f48f1a4c62e43f3c223d271432ba0531445f83ff5e4f635244cc88b07527",
-      "size": 30686208
+      "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3013/MIDWAY.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUV2xtQVVYbGhrRlUyUlIzWmp0NWhOVk1PWTh0ZVBkVUlyVm9lRjJwRlU1V0ZBQW5YcytyeTQyczJSeDIxbjN0dDR0Q3ZXZXdTVjV6VngvbFlBSGVkV3dROXByTzVwYUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU4MjU4CWZpbGU6TUlEV0FZLmV4ZQl2ZXJzaW9uOjEuMC4zCnJGbW9jMkRZaWR3bmNOY244WDQwSDNlQSs5M0dHSmpKZ2pUM2NGRHpvUmp4aVdTaU9EYm5UbklYNHUxS2tZS1E1TFI0QUpvU29PdkJyOGl5TXdmakJBPT0K",
+      "sha256": "80227f9edce8738aa4b79214c1b97d779f1a62afd8de88b6478eeee62a11f6cd",
+      "size": 30715392
     }
   }
 }
