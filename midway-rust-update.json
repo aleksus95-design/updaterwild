@@ -1,13 +1,13 @@
 {
-  "version": "1.0.3",
-  "notes": "MIDWAY 1.0.3: исправлено ложное 0/0 при готовых файлах, ускорена проверка, показаны этапы скачивания и установки модов.",
-  "pub_date": "2026-11-22T14:38:44Z",
+  "version": "1.0.4",
+  "notes": "MIDWAY 1.0.4: устранено мигание онлайна PvP между запросами, независимые запросы PvP/PvE. Сохранены исправления загрузки и установки модов.",
+  "pub_date": "2026-11-22T14:51:44Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3013/MIDWAY.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUV2xtQVVYbGhrRlUyUlIzWmp0NWhOVk1PWTh0ZVBkVUlyVm9lRjJwRlU1V0ZBQW5YcytyeTQyczJSeDIxbjN0dDR0Q3ZXZXdTVjV6VngvbFlBSGVkV3dROXByTzVwYUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU4MjU4CWZpbGU6TUlEV0FZLmV4ZQl2ZXJzaW9uOjEuMC4zCnJGbW9jMkRZaWR3bmNOY244WDQwSDNlQSs5M0dHSmpKZ2pUM2NGRHpvUmp4aVdTaU9EYm5UbklYNHUxS2tZS1E1TFI0QUpvU29PdkJyOGl5TXdmakJBPT0K",
-      "sha256": "80227f9edce8738aa4b79214c1b97d779f1a62afd8de88b6478eeee62a11f6cd",
-      "size": 30715392
+      "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3014/MIDWAY.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUV2xtQVVYbGhrRlZ6TTU4dXlWdkhhTGd5K3lrQ1BQZG9DU0RwZlFlcFVXWkdiQWwzOEdEZGlyTUJveXo4eXBnYzl4dVBVbGhGWkZ0azVTOE85Qk1TcmgrMWltZ21ycEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU4ODY2CWZpbGU6TUlEV0FZLmV4ZQl2ZXJzaW9uOjEuMC40Cjk2dTZrVm5DTmQ5Y0pUOWNMV1crY0w0TTNTb2tTQkorbVI2L2RSUUxFYXdjK01FVld1YlRtYmdKSnhYeGhxZVFLT1BhMHA0Z0Rja0MwN1VZZmJ6WUJBPT0K",
+      "sha256": "71625049fec49ca3aa6c6cb8cc32a483113f30a1bb926004e4cedb469cec61f0",
+      "size": 30710784
     }
   }
 }
