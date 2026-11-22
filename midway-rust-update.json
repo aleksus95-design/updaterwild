@@ -1,12 +1,12 @@
 {
-  "version": "1.0.6",
-  "notes": "MIDWAY 1.0.6: ожидание освобождения EXE при обновлении, диагностика блокировки и защита от повторного предложения неудачного обновления.",
-  "pub_date": "2026-11-22T17:40:53Z",
+  "version": "1.0.7",
+  "notes": "MIDWAY 1.0.7: FoundationFree R2 для PvE/PvP; один дополнительный PAK, прежние файлы сохранены. Серверная часть применяется при штатном рестарте.",
+  "pub_date": "2026-11-22T18:12:09Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3016/MIDWAY.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUV2xtQVVYbGhrRmE4NmpRTXUwUDBOR0JPeU8zTG5YZVhERFNOaXcwRmxLUzBJeVU3RDhuQWoyb3hOaVU5S2JFRFVsVVg5ZmNXZkU1Tm9sNzkyUUt5V01yMEdYb1g1TlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY5MTQwCWZpbGU6TUlEV0FZLmV4ZQl2ZXJzaW9uOjEuMC42Ckdzd3o5K0JOcTVLQ2lCYkJjZXh3WS9WRmZqSnlFU1Y1S2p0SmNMYnVzQ1k2RVBJVEFCWE1ONmpiOXVQSmZyck1yVzdHcVkwNDB0aUxPTlRzVnNyeUR3PT0K",
-      "sha256": "5145964c429c8fdff63cc13bc01c77fe3c071b8465bb76228a02714ffe63df99",
+      "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3017/MIDWAY.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUV2xtQVVYbGhrRlF3K3ZqSkcxR1paYkJ4dk5NaVhVb1NtMUpaUDJ5andKNXlKRFArVmpBSnBvaXRsUVVPeFlHT1NUZ1k1RFdKZmFNemZIUExEUnhYUEVTL3kxK2FWdkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzcwMzgzCWZpbGU6TUlEV0FZLmV4ZQl2ZXJzaW9uOjEuMC43CnJxdGtKcWcyTzVZd3hPaHo3N3NkK2t2TkhQeDJlNzdCY2RlRVo4Z0o1TDM5Rm5zdEJiWExDRUR4K2RocDBpQlkxRnltcnlkSlh1VE5oVWMrM1B0NURRPT0K",
+      "sha256": "520682282c1b6bc2e34dee95a11cdcd8145783a0419653eaec17296bce23b102",
       "size": 30793728
     }
   }
