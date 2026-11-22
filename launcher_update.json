@@ -1,16 +1,16 @@
 {
-  "version": "2026.11.22.3015",
+  "version": "2026.11.22.3016",
   "channel": "plain",
-  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3015/MIDWAY.exe",
+  "url": "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3016/MIDWAY.exe",
   "urls": [
-    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3015/MIDWAY.exe",
+    "https://github.com/aleksus95-design/updaterwild/releases/download/launcher-2026.11.22.3016/MIDWAY.exe",
     "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
   ],
-  "sha256": "4b8264194ab5b58167f8e618f4a33c07e564eda9c45a40c8c9b653359cc5d441",
-  "size": 30738944,
-  "notes": "MIDWAY 1.0.5: загрузка модов и обновлений использует проверку сертификатов Windows; исправлена совместимость HTTPS при UnknownIssuer.",
+  "sha256": "5145964c429c8fdff63cc13bc01c77fe3c071b8465bb76228a02714ffe63df99",
+  "size": 30793728,
+  "notes": "MIDWAY 1.0.6: ожидание освобождения EXE при обновлении, диагностика блокировки и защита от повторного предложения неудачного обновления.",
   "mandatory": false,
   "package_format": "exe",
   "launch_exe": "MIDWAY.exe",
-  "published_at": "2026-11-22T16:12:15Z"
+  "published_at": "2026-11-22T17:40:53Z"
 }
