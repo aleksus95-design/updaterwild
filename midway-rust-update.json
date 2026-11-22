@@ -1,1 +1,16 @@
-{"version": "1.0.0", "notes": "MIDWAY 1.0.0", "pub_date": "2026-11-22T13:11:19Z", "platforms": {"windows-x86_64": {"url": "https://github.com/aleksus95-design/updaterwild/releases/download/midway-rust-1.0.0/MIDWAY.exe", "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUV2xtQVVYbGhrRlgyVm1lRHlVNkhpQkR4SFZrWFRBTFR5QUh3K1ZtTWRRUjJId2Y5N3ZaeVhjVjRlRUpNY2tJUldmQ1FaMGYwUDVrM2JKN3dLVWFCaldBcTVsSlMzMVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzUzMDI4CWZpbGU6TUlEV0FZLmV4ZQl2ZXJzaW9uOjEuMC4wCmdGUFlaVVgyM1VZQ1NzK2M2bTdtbG03clV5MUk3anJsdHFBWjB4azZUR2JTSlZxeU9kTXlWNmwzM2ZkUFYzUHdiL1R0QVEvNXBkakQ4K1pKQmxXRUJRPT0K", "size": 28829184, "sha256": "3e01ad5c6fac53ad3bbf1f4ba99cbc87633cf8d74576b7647125b0bb762751d2"}}}
+{
+  "version": "1.0.0",
+  "notes": "MIDWAY 1.0.0 на Rust: отдельные PvP/PvE, обычная параллельная загрузка с GitHub и докачка. После установки лаунчер откроется автоматически.",
+  "pub_date": "2026-11-22T13:14:24Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/aleksus95-design/updaterwild/releases/download/midway-rust-1.0.0/MIDWAY.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUV2xtQVVYbGhrRlgyVm1lRHlVNkhpQkR4SFZrWFRBTFR5QUh3K1ZtTWRRUjJId2Y5N3ZaeVhjVjRlRUpNY2tJUldmQ1FaMGYwUDVrM2JKN3dLVWFCaldBcTVsSlMzMVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzUzMDI4CWZpbGU6TUlEV0FZLmV4ZQl2ZXJzaW9uOjEuMC4wCmdGUFlaVVgyM1VZQ1NzK2M2bTdtbG03clV5MUk3anJsdHFBWjB4azZUR2JTSlZxeU9kTXlWNmwzM2ZkUFYzUHdiL1R0QVEvNXBkakQ4K1pKQmxXRUJRPT0K",
+      "sha256": "3e01ad5c6fac53ad3bbf1f4ba99cbc87633cf8d74576b7647125b0bb762751d2",
+      "size": 28829184,
+      "mirrors": [
+        "https://raw.githubusercontent.com/aleksus95-design/updaterwild/main/MIDWAY.exe"
+      ]
+    }
+  }
+}
